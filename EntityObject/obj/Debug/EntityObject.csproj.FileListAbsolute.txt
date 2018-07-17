@@ -1,0 +1,5 @@
+E:\GitBranch\AdWordsSherlock\Pioneer.Adword\EntityObject\bin\Debug\EntityObject.dll
+E:\GitBranch\AdWordsSherlock\Pioneer.Adword\EntityObject\bin\Debug\EntityObject.pdb
+E:\GitBranch\AdWordsSherlock\Pioneer.Adword\EntityObject\obj\Debug\EntityObject.csprojResolveAssemblyReference.cache
+E:\GitBranch\AdWordsSherlock\Pioneer.Adword\EntityObject\obj\Debug\EntityObject.dll
+E:\GitBranch\AdWordsSherlock\Pioneer.Adword\EntityObject\obj\Debug\EntityObject.pdb

@@ -1,0 +1,3691 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Ads.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Google.Api.Ads.Common.CommonErrorMessages">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.AuthTokenLoginFailed">
+            <summary>
+              Looks up a localized string similar to AuthToken login failed. See ErrorCode for more details..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.ClientEmailIsMissingInJsonFile">
+            <summary>
+              Looks up a localized string similar to Required key &apos;client_email&apos; is missing in JSON secrets file..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.ConfigSettingParseError">
+            <summary>
+              Looks up a localized string similar to Failed to parse value for setting name &apos;{0}&apos;. Value provided: &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.EmailCannotBeNull">
+            <summary>
+              Looks up a localized string similar to Email cannot be null.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.FailedToLoadJsonSecretsFile">
+            <summary>
+              Looks up a localized string similar to Failed to load JSON secrets file for service account configuration. See inner exception for details..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.FailedToParseAuthTokenException">
+            <summary>
+              Looks up a localized string similar to Failed to parse response from server. See inner exception for more details..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.InvalidStageForSoapMessage">
+            <summary>
+              Looks up a localized string similar to Invalid stage for Soap message..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.MalformedSoap">
+            <summary>
+              Looks up a localized string similar to Failed to parse SOAP Document. Underlying error: {0}.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.MissingFactoryType">
+            <summary>
+              Looks up a localized string similar to Could not locate factoryType field in Type {0}.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.OAuth2AuthorizationCodeIsEmpty">
+            <summary>
+              Looks up a localized string similar to OAuth2 authorizationCode cannot be empty when fetching access token..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.OAuth2IsNotInOfflineMode">
+            <summary>
+              Looks up a localized string similar to OAuth2 Offline mode should be true to refresh access token..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.OAuth2JwtCertificateInvalid">
+            <summary>
+              Looks up a localized string similar to Unable to load private key from specified JWT certificate..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.OAuth2ParameterErrorMessage">
+            <summary>
+              Looks up a localized string similar to Looks like your application is not configured to use OAuth2 properly. Required OAuth2 parameter {0} is missing. You may run Common\\Utils\\OAuth2TokenGenerator.cs to generate a default OAuth2 configuration..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.PasswordCannotBeNull">
+            <summary>
+              Looks up a localized string similar to Password cannot be null.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.PrivateKeyIsMissingInJsonFile">
+            <summary>
+              Looks up a localized string similar to Required key &apos;private_key&apos; is missing in JSON secrets file..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.QuotesNotClosedInCsvLine">
+            <summary>
+              Looks up a localized string similar to Quotes not closed in csv record..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.ServiceCannotBeNull">
+            <summary>
+              Looks up a localized string similar to Service cannot be null.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.SignatureCannotBeNull">
+            <summary>
+              Looks up a localized string similar to Cache signature cannot be null..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.SourceStreamIsNotReadable">
+            <summary>
+              Looks up a localized string similar to Source stream is not readable..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.StartIndexShouldBeLessThanEndIndex">
+            <summary>
+              Looks up a localized string similar to Start index should be less than end index..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.StringIndexOutOfBounds">
+            <summary>
+              Looks up a localized string similar to This parameter should be greater than 0 and less than the length of text..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.TargetStreamIsNotWritable">
+            <summary>
+              Looks up a localized string similar to Target stream is not writable..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.TextCannotBeNull">
+            <summary>
+              Looks up a localized string similar to Text to split cannot be null..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.UnknownTraceSource">
+            <summary>
+              Looks up a localized string similar to Unknown trace source : {0}..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.CommonErrorMessages.UnregisteredServiceTypeRequested">
+            <summary>
+              Looks up a localized string similar to Unregistered service type {0} was requested..
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Config.ConfigSetting">
+            <summary>
+            A config setting, to be used with <see cref="T:Google.Api.Ads.Common.Lib.AppConfigBase"/> and derived classes.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Config.ConfigSetting.Name">
+            <summary>
+            Gets the name of the setting.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Config.ConfigSetting.TryParse(System.String)">
+            <summary>
+            Tries to parse a value.
+            </summary>
+            <param name="valueText">The value text.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Config.ConfigSetting`1">
+            <summary>
+            A config setting of a specified type, to be used with <see cref="T:Google.Api.Ads.Common.Lib.AppConfigBase"/>
+            and derived classes.
+            </summary>
+            <typeparam name="T">The type of the setting.</typeparam>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Config.ConfigSetting`1.Value">
+            <summary>
+            Gets or sets the value of the setting.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Config.ConfigSetting`1.DefaultValue">
+            <summary>
+            Gets the default value of the setting.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Config.ConfigSetting`1.#ctor(System.String,`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Config.ConfigSetting`1"/> class.
+            </summary>
+            <param name="name">Name of the setting.</param>
+            <param name="defaultValue">The default value.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Config.ConfigSetting`1.TryParse(System.String)">
+            <summary>
+            Tries to parse a value.
+            </summary>
+            <param name="valueText">The value text.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsClient">
+            <summary>
+            This interface defines a client protocol (SOAP, WSE, REST, etc.)
+            supported by the library.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.Timeout">
+            <summary>
+            The timeout for the request.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.Url">
+            <summary>
+            The url endpoint for the service.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.EnableDecompression">
+            <summary>
+            Gets or sets whether gzip compression is enabled.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.Proxy">
+            <summary>
+            Gets or sets proxy information for making a service request through
+            a firewall.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.UserAgent">
+            <summary>
+            Gets or sets the value for the user agent header that is sent with each
+            request.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.User">
+            <summary>
+            Gets or sets the AdsUser object that created this
+            service.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsClient.Signature">
+            <summary>
+            Gets or sets the signature for this service.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsException">
+            <summary>
+            Base class for all exceptions thrown by the library related
+            to an Ads API call.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsException.#ctor">
+            <summary>
+            Protected constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsException.#ctor(System.String)">
+            <summary>
+            Protected constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Protected constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+            <param name="innerException">Inner exception, if any.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Protected constructor, used by serialization frameworks while
+            deserializing an exception object.
+            </summary>
+            <param name="info">Info about the serialization context.</param>
+            <param name="context">A streaming context that represents the
+            serialization stream.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsException.GetValue``1(System.Runtime.Serialization.SerializationInfo,System.String)">
+            <summary>
+            Gets a specified field from serialization stream.
+            </summary>
+            <typeparam name="T">The type of field.</typeparam>
+            <param name="info">The serialization context.</param>
+            <param name="fieldName">The serialization field name.</param>
+            <returns>The deserialized value of field.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsOAuthException">
+            <summary>
+            Exception thrown when OAuth authentication with Ads server fails.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthException.#ctor">
+            <summary>
+            Public constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthException.#ctor(System.String)">
+            <summary>
+            Public constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthException.#ctor(System.String,System.Exception)">
+            <summary>
+            Public constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+            <param name="innerException">Inner exception, if any.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Protected constructor. Used by serialization frameworks while
+            deserializing an exception object.
+            </summary>
+            <param name="info">Info about the serialization context.</param>
+            <param name="context">A streaming context that represents the
+            serialization stream.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.OAuthTokensObtainedCallback">
+            <summary>
+            Called when an AdsOAuthProvider obtained a new access token and optionally
+            a new refresh token from the OAuth server.
+            </summary>
+            <param name="provider">The provider.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.OAuth2Flow">
+            <summary>
+            The type of OAuth2 flow.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2Flow.APPLICATION">
+            <summary>
+            Web and installed application flows.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2Flow.SERVICE_ACCOUNT">
+            <summary>
+            Service account flow.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsOAuthProvider">
+            <summary>
+            Provides OAuth authorization mechanism for Ads services.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.ClientId">
+            <summary>
+            Gets or sets the client that is making the request. This value is
+            obtained from the <a href="https://code.google.com/apis/console">
+            API console</a> during application registration.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.ClientSecret">
+            <summary>
+            Gets or sets the client secret obtained from the
+            <a href="https://code.google.com/apis/console">API console</a>
+            during application registration.during application registration.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.Scope">
+            <summary>
+            Gets or sets the API access your application is requesting. This is
+            space delimited.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.State">
+            <summary>
+            Gets or sets a parameter that your application can use for keeping
+            state. The OAuth Authorization Server roundtrips this parameter.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.TokenType">
+            <summary>
+            Gets the type of token returned by the server. This field will
+            always have the value Bearer for now.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.AccessToken">
+            <summary>
+            Gets or sets the token that can be sent to a Google API for
+            authentication.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.UpdatedOn">
+            <summary>
+            Gets or sets the time at which access token was retrieved.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.ExpiresIn">
+            <summary>
+            Gets the remaining lifetime on the access token.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProvider.RefreshAccessToken">
+            <summary>
+            Refreshes the access token if expiring.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProvider.RefreshAccessTokenIfExpiring">
+            <summary>
+            Refreshes the access token if expiring.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProvider.GetAuthHeader">
+            <summary>
+            Gets the OAuth authorization header to be used with HTTP requests.
+            </summary>
+            <returns>The authorization header.</returns>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProvider.OnOAuthTokensObtained">
+            <summary>
+            Callback triggered when this provider obtains a new access token or
+            refresh token from the OAuth server.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications">
+            <summary>
+            Provides OAuth authorization mechanism for Ads services when using Web and
+            Installed application flows.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.IsOffline">
+            <summary>
+            Indicates if your application needs to access APIs when the user is not
+            present at the browser. This is defaulted to true.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.RedirectUri">
+            <summary>
+            Gets or sets where the url where the response is sent. This should be a
+            registered redirect uri on the
+            <a href="https://code.google.com/apis/console">API console</a>.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.RefreshToken">
+            <summary>
+            Gets or sets a token that may be used to obtain a new access token.
+            Refresh tokens are valid until the user revokes access.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.GetAuthorizationUrl">
+            <summary>
+            Gets the authorization URL.
+            </summary>
+            <returns>The authorization url.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.FetchAccessAndRefreshTokens(System.String)">
+            <summary>
+            Fetches the access and optionally the refresh token if applicable.
+            </summary>
+            <param name="authorizationCode">The authorization code returned by
+            OAuth server.</param>
+            <returns>True if the tokens were fetched successfully, false otherwise.
+            </returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.RefreshAccessTokenInOfflineMode">
+            <summary>
+            Refreshes the access token if offline mode is used.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProviderForApplications.RevokeRefreshToken">
+            <summary>
+            Revokes the refresh token if offline mode is used.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsOAuthProviderForServiceAccounts">
+            <summary>
+            Provides OAuth authorization mechanism for Ads services when using service
+            account flow.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProviderForServiceAccounts.ServiceAccountEmail">
+            <summary>
+            Gets the service account email for which access token should be
+            retrieved.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsOAuthProviderForServiceAccounts.PrnEmail">
+            <summary>
+            Gets or sets the email of the account for which the call is being made.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsOAuthProviderForServiceAccounts.GenerateAccessTokenForServiceAccount">
+            <summary>
+            Generates the access token for service account.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsService">
+            <summary>
+            Lists all the services available through this library.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsService.GetServiceTypes">
+            <summary>
+            Gets all service types defined in this service.
+            </summary>
+            <returns>The nested types that define service versions under this
+            service.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior">
+            <summary>
+            Adds inspectors for authentication, SOAP headers, and logging to Ads API services.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.#ctor">
+            <summary>
+            Initializes a new instance of the AdsServiceInspectorBehavior class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.Add(System.ServiceModel.Dispatcher.IClientMessageInspector)">
+            <summary>
+            Adds the inspector to be applied to the service.
+            </summary>
+            <param name="inspector">Inspector.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.Remove``1">
+            <summary>
+            Removes inspector of type T.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.GetInspector``1">
+            <summary>
+            Gets the inspector of the specified Type, if it exists.
+            Returns null otherwise.
+            </summary>
+            <typeparam name="T">The type of inspector to retrieve.</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.AddBindingParameters(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)">
+            <summary>
+            Adds the binding parameters.
+            </summary>
+            <param name="endpoint">Endpoint.</param>
+            <param name="bindingParameters">Binding parameters.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.ApplyClientBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)">
+            <summary>
+            Applies the client behavior.
+            </summary>
+            <param name="endpoint">Endpoint.</param>
+            <param name="clientRuntime">Client runtime.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.EndpointDispatcher)">
+            <summary>
+            Applies the dispatch behavior.
+            </summary>
+            <param name="endpoint">Endpoint.</param>
+            <param name="endpointDispatcher">Endpoint dispatcher.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsServiceInspectorBehavior.Validate(System.ServiceModel.Description.ServiceEndpoint)">
+            <summary>
+            Validate the specified endpoint.
+            </summary>
+            <param name="endpoint">Endpoint.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsSoapClient`1">
+            <summary>
+            Base class for all SOAP services supported by this library.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.Timeout">
+            <summary>
+            The timeout for the request in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.Url">
+            <summary>
+            The url endpoint for the service.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.EnableDecompression">
+            <summary>
+            Gets or sets whether gzip compression is enabled.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.Proxy">
+            <summary>
+            Gets or sets proxy information for making a service request through
+            a firewall.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.UserAgent">
+            <summary>
+            Gets or sets the value for the user agent header that is sent with each
+            request.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.User">
+            <summary>
+            The user that created this service instance.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsSoapClient`1.Signature">
+            <summary>
+            The signature for this service.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the AdsSoapClient class.
+            </summary>
+            <param name="endpointConfigurationName">
+            The name of the endpoint in the application configuration file.
+            </param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.#ctor(System.String,System.ServiceModel.EndpointAddress)">
+            <summary>
+            Initializes a new instance of the AdsSoapClient class.
+            </summary>
+            <param name="endpointConfigurationName">
+            The name of the endpoint in the application configuration file.
+            </param>
+            <param name="remoteAddress">Remote address of the service.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">
+            <summary>
+            Initializes a new instance of the AdsSoapClient class.
+            </summary>
+            <param name="binding">The binding with which to make calls to the service.</param>
+            <param name="remoteAddress">Remote address of the service.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the AdsSoapClient class.
+            </summary>
+            <param name="endpointConfigurationName">
+            The name of the endpoint in the application configuration file.
+            </param>
+            <param name="remoteAddress">Remote address of the service.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.InitForCall(System.String,System.Object[])">
+            <summary>
+            Initializes the service before MakeApiCall.
+            </summary>
+            <param name="methodName">Name of the method.</param>
+            <param name="parameters">The method parameters.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.CleanupAfterCall(System.String,System.Object[])">
+            <summary>
+            Cleans up the service after MakeApiCall.
+            </summary>
+            <param name="methodName">Name of the method.</param>
+            <param name="parameters">The method parameters.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsSoapClient`1.Dispose">
+            <summary>
+            Disposes of this AdsSoapClient.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AdsUser">
+            <summary>
+            Represents an Ads API user.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AdsUser.listeners">
+            <summary>
+            The list of SOAP listeners.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AdsUser.oAuthProvider">
+            <summary>
+            The OAuth provider.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AdsUser.config">
+            <summary>
+            The application configuration for this user.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AdsUser.serviceFactoryMap">
+            <summary>
+            Stores all the registered services and their factories.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsUser.OAuthProvider">
+            <summary>
+            Gets or sets the OAuth provider.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsUser.Config">
+            <summary>
+            Gets or sets the application configuration for this user.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AdsUser.Listeners">
+            <summary>
+            Gets the listeners.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.#ctor(Google.Api.Ads.Common.Lib.AppConfigBase)">
+            <summary>
+            Protected constructor. Use this version from a derived class if you want
+            the library to use all settings from App.config.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.#ctor(Google.Api.Ads.Common.Lib.AppConfigBase,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Protected constructor. Use this version from a derived class if you want
+            the library to use all settings from App.config.
+            </summary>
+            <remarks>This constructor exists for backward compatibility purposes.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.SetOAuthProvider(Google.Api.Ads.Common.Lib.AppConfigBase)">
+            <summary>
+            Sets the OAuth provider.
+            </summary>
+            <param name="config">The config.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.MergeValuesFromHeaders(Google.Api.Ads.Common.Lib.AppConfigBase,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Merges the values from headers and config into config instance.
+            </summary>
+            <param name="config">The appication configuration to use.</param>
+            <param name="headers">The configuration headers.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.RegisterServices(System.Type[])">
+             <summary>
+             Registers a family of services against this user.
+             </summary>
+             <param name="servicesFamilies">The family of services that should be
+             registered against this user.</param>
+             <remarks>
+             Every family of services that should be registered with an AdsUser
+             should be like follows:
+            
+             <code>
+               public class vX {
+                 /// Type of the factory that can create services of SomeService.vX
+                 public Type factoryType = typeof(SomeServiceVxFactory);
+            
+                 /// Various services under vX.
+            
+                 public readonly ServiceSignature Service1;
+                 public readonly ServiceSignature Service2;
+               }
+             </code>
+            
+             The method uses reflection to
+             - Find all the fields of type ServiceSignature.
+             - Extract the factory type from factoryType field.
+             - Register each found service type with the user.
+            
+             </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetServiceTypes">
+            <summary>
+            Gets all the service types to be registered against this user.
+            </summary>
+            <returns>The type of all service classes to be registered.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetDefaultListeners">
+            <summary>
+            Gets the default listeners.
+            </summary>
+            <returns>A list of default listeners</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.SetHeadersFromConfig">
+            <summary>
+            Set the user headers from App.config.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetUniqueFactories">
+            <summary>
+            Gets the unique set of factories from the list of registered factories.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.RegisterService(System.String,Google.Api.Ads.Common.Lib.ServiceFactory)">
+            <summary>
+            Register a service with AdsUser.
+            </summary>
+            <param name="serviceId">A unique id for the service being registered.
+            </param>
+            <param name="serviceFactory">The factory that will create this
+            service.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetServiceFactory(System.String)">
+            <summary>
+            Gets the service factory for a service.
+            </summary>
+            <param name="serviceId">The service id.</param>
+            <returns>The service factory instance, or null if the service is not
+            yet registered.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetService(Google.Api.Ads.Common.Lib.ServiceSignature)">
+            <summary>
+            Creates an object of the requested type of service.
+            </summary>
+            <param name="serviceSignature">Signature of the service being requested.
+            </param>
+            <returns>An object of the requested type of service. The
+            caller should cast this object to the desired type.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetService(Google.Api.Ads.Common.Lib.ServiceSignature,System.String)">
+            <summary>
+            Creates an object of the requested type of service.
+            </summary>
+            <param name="serviceSignature">Signature of the service being requested.
+            </param>
+            <param name="serverUrl">The server url for Ads service.</param>
+            <returns>An object of the requested type of service. The
+            caller should cast this object to the desired type.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.GetService(Google.Api.Ads.Common.Lib.ServiceSignature,System.Uri)">
+            <summary>
+            Creates an object of the requested type of service.
+            </summary>
+            <param name="serviceSignature">Signature of the service being requested.
+            </param>
+            <param name="serverUrl">The server url for Ads service.</param>
+            <returns>An object of the requested type of service. The
+            caller should cast this object to the desired type.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.CallListeners(Google.Api.Ads.Common.Logging.RequestInfo,Google.Api.Ads.Common.Logging.ResponseInfo)">
+            <summary>
+            Calls the SOAP listeners.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.InitListeners">
+            <summary>
+            Initialize the SOAP listeners before an API call.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AdsUser.CleanupListeners">
+            <summary>
+            Cleans up the SOAP listeners after an API call.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AppConfig">
+            <summary>
+            Interface for common configuration properties.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.MaskCredentials">
+            <summary>
+            Gets whether the credentials in the log file should be masked.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2ServerUrl">
+            <summary>
+            Gets or sets the OAuth2 server URL.
+            </summary>
+            <remarks>This property is primarily used only for testing purposes.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2Mode">
+            <summary>
+            Gets or sets the OAuth2 mode.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2AccessToken">
+            <summary>
+            Gets or sets the OAuth2 access token.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2ClientId">
+            <summary>
+            Gets or sets the OAuth2 client id.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2ClientSecret">
+            <summary>
+            Gets or sets the OAuth2 client secret.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2RedirectUri">
+            <summary>
+            Gets or sets the OAuth2 redirect URI.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 web flow.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2RefreshToken">
+            <summary>
+            OAuth2 refresh token.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 web / application
+            flow in offline mode.</remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2Scope">
+            <summary>
+            Gets or sets the OAuth2 scope.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2PrnEmail">
+            <summary>
+            Gets or sets the OAuth2 prn email.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 service accounts.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2SecretsJsonPath">
+            <summary>
+            Gets or sets the OAuth2 secrets JSON file.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 service accounts.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2PrivateKey">
+            <summary>
+            Gets the OAuth2 private key for service account flow.
+            </summary>
+            <remarks>
+            This setting is applicable only when using OAuth2 service accounts.
+            This setting is read directly from the file referred to in
+            <see cref="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2SecretsJsonPath"/> setting.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.OAuth2ServiceAccountEmail">
+            <summary>
+            Gets the OAuth2 service account email.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 service accounts.
+            This property is read directly from the file pointed to by
+            OAuth2SecretsJsonPath property.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.IncludeUtilitiesInUserAgent">
+            <summary>
+            Gets or sets whether usage information of various client library
+            features should be included in the user agent.
+            </summary>
+        </member>
+        <member name="E:Google.Api.Ads.Common.Lib.AppConfig.PropertyChanged">
+            <summary>
+            Occurs when a property is changed.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.Proxy">
+            <summary>
+            Gets the web proxy to be used with the services.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.RetryCount">
+            <summary>
+            Gets or sets the number of times to retry a call if an API call fails
+            and can be retried.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.Signature">
+            <summary>
+            Gets the signature for this library.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.Timeout">
+            <summary>
+            Gets or sets the timeout for Ads services in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.EnableGzipCompression">
+            <summary>
+            Gets or sets whether gzip compression should be turned on for SOAP
+            requests and responses.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfig.UnixTimestamp">
+            <summary>
+            Gets the number of seconds after Jan 1, 1970, 00:00:00
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfig.GetDefaultOAuth2Scope">
+            <summary>
+            Gets the default OAuth2 scope.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfig.GetUserAgent">
+            <summary>
+            Gets the user agent text.
+            </summary>
+            <returns>The user agent.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.AppConfigBase">
+            <summary>
+            This class reads the configuration keys from App.config.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.featureUsageRegistry">
+            <summary>
+            The registry for saving feature usage information..
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.SHORT_NAME">
+            <summary>
+            The short name to identify this assembly.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.proxy">
+            <summary>
+            Web proxy to be used with the services.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.maskCredentials">
+            <summary>
+            True, if the credentials in the log file should be masked.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.timeout">
+            <summary>
+            Timeout to be used for Ads services in milliseconds.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.retryCount">
+            <summary>
+            Number of times to retry a call if an API call fails and can be retried.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.enableGzipCompression">
+            <summary>
+            True, if gzip compression should be turned on for SOAP requests and
+            responses.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2ClientId">
+            <summary>
+            OAuth2 client ID.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2ServerUrl">
+            <summary>
+            OAuth2 server URL.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2ClientSecret">
+            <summary>
+            OAuth2 client secret.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2AccessToken">
+            <summary>
+            OAuth2 access token.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2RefreshToken">
+            <summary>
+            OAuth2 refresh token.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2PrnEmail">
+            <summary>
+            OAuth2 prn email.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2ServiceAccountEmail">
+            <summary>
+            OAuth2 service account email loaded from secrets JSON file.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2PrivateKey">
+            <summary>
+            OAuth2 private key loaded from secrets JSON file.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2SecretsJsonPath">
+            <summary>
+            OAuth2 secrets JSON file path.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2Scope">
+            <summary>
+            OAuth2 scope.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2RedirectUri">
+            <summary>
+            Redirect uri.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.oAuth2Mode">
+            <summary>
+            OAuth2 mode.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.includeUtilitiesInUserAgent">
+            <summary>
+            True, if the usage of a feature should be added to the user agent,
+            false otherwise.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.DEFAULT_TIMEOUT">
+            <summary>
+            Default value for timeout for Ads services.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.AppConfigBase.DEFAULT_OAUTH2_SERVER">
+            <summary>
+            The default value of OAuth2 server URL.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.MaskCredentials">
+            <summary>
+            Gets or sets whether the credentials in the log file should be masked.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.Proxy">
+            <summary>
+            Gets or sets the web proxy to be used with the services.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.Timeout">
+            <summary>
+            Gets or sets the timeout for Ads services in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.RetryCount">
+            <summary>
+            Gets or sets the number of times to retry a call if an API call fails
+            and can be retried.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.EnableGzipCompression">
+            <summary>
+            Gets or sets whether gzip compression should be turned on for SOAP
+            requests and responses.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2ServerUrl">
+            <summary>
+            Gets or sets the OAuth2 server URL.
+            </summary>
+            <remarks>This property's setter is primarily used for testing purposes.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2ClientId">
+            <summary>
+            Gets or sets the OAuth2 client ID.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2ClientSecret">
+            <summary>
+            Gets or sets the OAuth2 client secret.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2AccessToken">
+            <summary>
+            Gets or sets the OAuth2 access token.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2RefreshToken">
+            <summary>
+            Gets or sets the OAuth2 refresh token.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 web / application
+            flow in offline mode.</remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2Scope">
+            <summary>
+            Gets or sets the OAuth2 scope.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2RedirectUri">
+            <summary>
+            Gets or sets the OAuth2 redirect URI.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 web flow.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2Mode">
+            <summary>
+            Gets or sets the OAuth2 mode.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2PrnEmail">
+            <summary>
+            Gets or sets the OAuth2 prn email.
+            </summary>
+            <remarks>This setting is applicable only when using OAuth2 service accounts.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2ServiceAccountEmail">
+            <summary>
+            Gets the OAuth2 service account email.
+            </summary>
+            <remarks>
+            This setting is applicable only when using OAuth2 service accounts.
+            This setting is read directly from the file referred to in
+            <see cref="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2SecretsJsonPath"/> setting.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2PrivateKey">
+            <summary>
+            Gets the OAuth2 private key for service account flow.
+            </summary>
+            <remarks>
+            This setting is applicable only when using OAuth2 service accounts.
+            This setting is read directly from the file referred to in
+            <see cref="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2SecretsJsonPath"/> setting.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.OAuth2SecretsJsonPath">
+            <summary>
+            Gets or sets the OAuth2 secrets JSON file path.
+            </summary>
+            <remarks>
+            This setting is applicable only when using OAuth2 service accounts.
+            </remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.IncludeUtilitiesInUserAgent">
+            <summary>
+            Gets or sets whether usage of various client library features should be
+            tracked.
+            </summary>
+            <remarks>The name of the property is kept different to match the setting
+            name for other client libraries.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.GetDefaultOAuth2Scope">
+            <summary>
+            Gets the default OAuth2 scope.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.GetUserAgent">
+            <summary>
+            Gets the user agent text.
+            </summary>
+            <returns>The user agent.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.GetAssemblySignatureFromAppConfigType(System.Type)">
+            <summary>
+            Gets the signature for this assembly, given a type derived from
+            AppConfigBase.
+            </summary>
+            <param name="type">Type of the class derived from AppConfigBase.</param>
+            <returns>The assembly signature.</returns>
+            <exception cref="T:System.ArgumentException">Thrown if type is not derived from
+            AppConfigBase.</exception>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.Signature">
+            <summary>
+            Gets the signature for this library.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.AppConfigBase.UnixTimestamp">
+            <summary>
+            Gets the number of seconds after Jan 1, 1970, 00:00:00
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.#ctor">
+            <summary>
+            The default constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Lib.AppConfigBase"/> class.
+            </summary>
+            <param name="configurationRoot">The configuration root.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.LoadConfigSection(System.String)">
+            <summary>
+            Attempts to load the configuration section with the given name.
+            </summary>
+            <param name="sectionName">The name of the configuration section to load.</param>
+            <returns>
+            The request configuration section, or <code>null</code> if none was found.
+            </returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.LoadAppConfig(System.String)">
+            <summary>
+            Loads the application configuration XML.
+            </summary>
+            <param name="sectionName">Name of the section.</param>
+            <returns>The App.config loaded as a list of KeyValuePair.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.LoadConfigRoot(Microsoft.Extensions.Configuration.IConfigurationRoot)">
+            <summary>
+            Attempts to load the configuration from a configuration root.
+            </summary>
+            <param name="configurationRoot">The configuration root.</param>
+            The configuration, or <code>null</code> if none was found.
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.ReadSettings(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Read all settings from App.config.
+            </summary>
+            <param name="settings">The parsed app.config settings.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.ReadProxySettings(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Reads the proxy settings.
+            </summary>
+            <param name="settings">The parsed app.config settings.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.LoadOAuth2SecretsFromFile">
+            <summary>
+            Loads the OAuth2 private key and service account email settings from the
+            secrets JSON file.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.ReadSetting(System.Collections.Generic.Dictionary{System.String,System.String},Google.Api.Ads.Common.Config.ConfigSetting)">
+            <summary>
+            Reads a setting from a given dictionary.
+            </summary>
+            <param name="settings">The settings collection from which the keys
+            are to be read.</param>
+            <param name="settingField">The field that holds the setting value.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.SetPropertyAndNotify``1(Google.Api.Ads.Common.Config.ConfigSetting{``0},``0,System.String)">
+            <summary>
+            Sets the specified property and notify any listeners.
+            </summary>
+            <typeparam name="T">Type of the property.</typeparam>
+            <param name="field">The field that store property value.</param>
+            <param name="newValue">The new value to be set.</param>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="E:Google.Api.Ads.Common.Lib.AppConfigBase.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.AppConfigBase.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>
+            A new object that is a copy of this instance.
+            </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.Configurable">
+            <summary>
+            Marks a class as configurable.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.Configurable.Config">
+            <summary>
+            Gets the application configuration class for this object.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.ContextStore">
+            <summary>
+            This class provides an environment agnostic context store.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ContextStore.AddKey(System.String,System.Object)">
+            <summary>
+            Adds a key-value pair to the context store.
+            </summary>
+            <param name="key">The key for the value being stored.</param>
+            <param name="value">The value being stored.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ContextStore.RemoveKey(System.String)">
+            <summary>
+            Removes a stored value from the context store.
+            </summary>
+            <param name="key">The key for the value to be removed.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ContextStore.GetValue(System.String)">
+            <summary>
+            Gets the value of an item stored in the context store.
+            </summary>
+            <param name="key">The key for which value should be retrieved.</param>
+            <returns>The object's value, or null if the key is missing.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.ErrorHandler">
+            <summary>
+            Handles errors for an Ads API.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ErrorHandler.WAIT_TIME">
+            <summary>
+            Wait time in ms to wait before retrying a call. The actual retry time
+            will be higher due to exponential backoff.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ErrorHandler.config">
+            <summary>
+            The application configuration.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ErrorHandler.numRetries">
+            <summary>
+            Number of retry attempts made.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.#ctor(Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Lib.ErrorHandler"/> class.
+            </summary>
+            <param name="config">The application configuration instance.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.DoExponentialBackoff">
+            <summary>
+            Does the exponential backoff.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.HaveMoreRetryAttemptsLeft">
+            <summary>
+            Checks if there are more retry attempts left.
+            </summary>
+            <returns>True, if there are more retry attempts left, false otherwise.
+            </returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.IncrementRetriedAttempts">
+            <summary>
+            Increment the counter for attempts retried.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.IsTransientError(System.Exception)">
+            <summary>
+            Determines whether the exception thrown by the server is a transient
+            error.</summary>
+            <param name="exception">The exception.</param>
+            <returns>True, if the server exception is a transient error, false
+            otherwise.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.PrepareForRetry(System.Exception)">
+            <summary>
+            Prepares the system for retrying the last failed call.
+            </summary>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ErrorHandler.ShouldRetry(System.Exception)">
+            <summary>
+            Checks if an API call should be retried when an exception occurs.
+            </summary>
+            <param name="exception">The exception.</param>
+            <returns>True, if the call should be retried, false otherwise.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.GzipHeaderInspector">
+            <summary>
+            OAuth2 client message inspector that adds encoding HTTP headers.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.GzipHeaderInspector.BeforeSendRequest(System.ServiceModel.Channels.Message@,System.ServiceModel.IClientChannel)">
+            <summary>
+            Adds an Accept-Encoding header to outbound requests.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.GzipHeaderInspector.AfterReceiveReply(System.ServiceModel.Channels.Message@,System.Object)">
+            <summary>
+            A no-op for this inspector.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.OAuth2ClientMessageInspector">
+            <summary>
+            OAuth2 client message inspector that adds authorization HTTP headers.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ClientMessageInspector.#ctor(Google.Api.Ads.Common.Lib.AdsOAuthProvider)">
+            <summary>
+            Initializes a new instance of the OAuth2ClientMessageInspector class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ClientMessageInspector.BeforeSendRequest(System.ServiceModel.Channels.Message@,System.ServiceModel.IClientChannel)">
+            <summary>
+            Adds an OAuth2 authorization header to outbound requests.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ClientMessageInspector.AfterReceiveReply(System.ServiceModel.Channels.Message@,System.Object)">
+            <summary>
+            Performs any operations after receiving the SOAP response.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.OAuth2ProviderBase">
+            <summary>
+            Base class which provides OAuth authorization mechanism for Ads services.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.featureUsageRegistry">
+            <summary>
+            The registry for saving feature usage information..
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.OAUTH_SERVER">
+            <summary>
+            Gets the OAuth2 server URL.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.AUTH_ENDPOINT">
+            <summary>
+            The OAuth2 endpoint for obtaining an authorization token.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.TOKEN_ENDPOINT">
+            <summary>
+            The OAuth2 endpoint for obtaining or refreshing an access token.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.oAuth2RefreshCutoffLimit">
+            <summary>
+            The OAuth2 tokens will be refreshed automatically if the time left for
+            access token expiry is less than this value in seconds.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.state">
+            <summary>
+            A parameter that your application can use for keeping state. The
+            OAuth Authorization Server roundtrips this parameter.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.tokenType">
+            <summary>
+            Indicates the type of token returned by the server. This field will
+            always have the value Bearer for now.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.updatedOn">
+            <summary>
+            The time at which access token was updated.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.expiresIn">
+            <summary>
+            The remaining lifetime on the access token.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.config">
+            <summary>
+            The configuration object to be used with this client.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.PRIVATE_KEY_PREFIX">
+            <summary>
+            The prefix text used by Google for the private key property in the JSON
+            secrets file.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.PRIVATE_KEY_SUFFIX">
+            <summary>
+            The suffix text used by Google for the private key property in the JSON
+            secrets file.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.REQUEST_HEADERS_TO_MASK">
+            <summary>
+            The list of headers to mask in the logs.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.RESPONSE_FIELDS_TO_MASK">
+            <summary>
+            The list of fields to mask in the response logs.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.oAuthTokensObtained">
+            <summary>
+            Callback triggered when this provider obtains a new access token or
+            refresh token from the OAuth server.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.Config">
+            <summary>
+            Gets the config.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.ClientId">
+            <summary>
+            Gets or sets the client that is making the request. This value is
+            obtained from the <a href="https://code.google.com/apis/console">
+            API console</a> during application registration.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.ClientSecret">
+            <summary>
+            Gets or sets the client secret obtained from the
+            <a href="https://code.google.com/apis/console">API console</a>
+            during application registration.during application registration.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.Scope">
+            <summary>
+            Gets or sets the API access your application is requesting. This is
+            space delimited.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.State">
+            <summary>
+            Gets or sets a parameter that your application can use for keeping
+            state. The OAuth Authorization Server roundtrips this parameter.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.TokenType">
+            <summary>
+            Gets the type of token returned by the server. This field will
+            always have the value Bearer for now.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.AccessToken">
+            <summary>
+            Gets or sets the token that can be sent to a Google API for
+            authentication.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.RefreshToken">
+            <summary>
+            Gets or sets a token that may be used to obtain a new access token.
+            Refresh tokens are valid until the user revokes access.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.UpdatedOn">
+            <summary>
+            Gets or sets the time at which access token was retrieved.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.ExpiresIn">
+            <summary>
+            Gets the remaining lifetime on the access token.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.OnOAuthTokensObtained">
+            <summary>
+            Callback triggered when this provider obtains a new access token or
+            refresh token from the OAuth server.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.OAuth2RefreshCutoffLimit">
+            <summary>
+            Gets or sets the OAuth2 refresh cutoff limit.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.#ctor(Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Lib.AdsOAuthProvider"/> class.
+            </summary>
+            <param name="config">The config.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.GetAuthHeader">
+            <summary>
+            Gets the auth header.
+            </summary>
+            <returns>The auth header.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.RefreshAccessTokenIfExpiring">
+            <summary>
+            Refreshes the access token if expiring.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.RefreshAccessToken">
+            <summary>
+            Refreshes the access token if expiring.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.IsAccessTokenExpiring">
+            <summary>
+            Determines whether the access token for the provider is expiring.
+            </summary>
+            <returns>True if the token is expiring, false otherwise.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.CallTokenEndpoint(System.String)">
+            <summary>
+            Calls the token endpoint to obtain an access token.
+            </summary>
+            <param name="body">The request body.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.Base64UrlEncode(System.Byte[])">
+            <summary>
+            Generates a url-safe base64 encoded string.
+            </summary>
+            <param name="data">The data to be base64-encoded.</param>
+            <returns>The base64 encoded string.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.ParseJsonObjectResponse(System.String)">
+            <summary>
+            Parses a JSON object response.
+            </summary>
+            <param name="contents">The JSON contents.</param>
+            <returns>A dictionary of key-value pairs.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.ValidateOAuth2Parameter(System.String,System.String)">
+            <summary>
+            Validates if a required OAuth2 parameter is null or empty.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+            <param name="propertyValue">The property value.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderBase.TokensUpdatedCallback(Google.Api.Ads.Common.Lib.AdsOAuthProvider)">
+            <summary>
+            Default callback when this provider obtains a new access token or
+            refresh token from the OAuth server.
+            </summary>
+            <param name="provider">The provider.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications">
+            <summary>
+            Provides OAuth authorization mechanism for Ads services when using Web and
+            installed application flows.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.FEATURE_ID">
+            <summary>
+            The feature ID for this class.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.REVOKE_ENDPOINT">
+            <summary>
+            The OAuth2 endpoint for revoking a refresh token programmatically.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.OFFLINE_REDIRECT_URL">
+            <summary>
+            The OAuth2 redirect url to be used if your application is a desktop
+            application. To use this url, your client should be registered as an
+            installed application on the
+            <a href="https://code.google.com/apis/console">API console</a>.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.RESPONSE_TYPE">
+            <summary>
+            Determines if the Google OAuth 2.0 endpoint returns an authorization
+            code.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.isOffline">
+            <summary>
+            Indicates if your application needs to access APIs when the user is not
+            present at the browser. This is defaulted to true.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.IsOffline">
+            <summary>
+            Indicates if your application needs to access APIs when the user is not
+            present at the browser. This is defaulted to true.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.RedirectUri">
+            <summary>
+            Gets or sets where the url where the response is sent. This should be a
+            registered redirect uri on the
+            <a href="https://code.google.com/apis/console">API console</a>.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.#ctor(Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Initializes a new instance of the OAuth2ProviderForApplications class.
+            </summary>
+            <param name="config">The config.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.GetAuthorizationUrl">
+            <summary>
+            Builds the OAuth2 authorization url.
+            </summary>
+            <returns>The Authorization url that the user needs to visit to authorize
+            the application.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if one of the following
+            OAuth2 parameters are empty: Scope, ClientId</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.FetchAccessAndRefreshTokens(System.String)">
+            <summary>
+            Gets the OAuth access and refresh tokens.
+            </summary>
+            <param name="authorizationCode">The authorization code obtained from the
+            Authorization url after the user authorizes the application to make API
+            calls.</param>
+            <returns>
+            True if the tokens were fetched successfully, false otherwise.
+            </returns>
+            <remarks>
+            Refresh tokens are obtained only if access mode was set to
+            offline.
+            </remarks>
+            <exception cref="T:System.ArgumentNullException">Thrown if one of the following
+            OAuth2 parameters are empty: ClientId, ClientSecret, AuthorizationCode.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.RefreshAccessTokenInOfflineMode">
+            <summary>
+            Refreshes the access token.
+            </summary>
+            <remarks>This method should be used only when access mode is set to
+            offline.</remarks>
+            <exception cref="T:System.ArgumentNullException">Thrown if one of the following
+            OAuth2 parameters are empty: ClientId, ClientSecret, RefreshToken.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.RevokeRefreshToken">
+            <summary>
+            Revokes the refresh token.
+            </summary>
+            <exception cref="T:System.ArgumentNullException">Thrown if one of the following
+            OAuth2 parameters are empty: RefreshToken.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.RefreshAccessToken">
+            <summary>
+            Refreshes the access token.
+            </summary>
+            <exception cref="T:System.ArgumentException">Thrown if IsOffline is false.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">Thrown if RefreshToken is empty.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.GetAuthHeader">
+            <summary>
+            Gets the auth header.
+            </summary>
+            <returns>The auth header.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForApplications.RefreshAccessTokenIfExpiring">
+            <summary>
+            Refreshes the access token if expiring.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts">
+            <summary>
+            Provides OAuth authorization mechanism for Ads services when using service
+            account flow.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.FEATURE_ID">
+            <summary>
+            The feature ID for this class.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.DEFAULT_EXPIRY_PERIOD">
+            <summary>
+            Default expiry period for access token.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.HttpClientFactory">
+            <summary>
+            The HttpClientFactory used for requesting Access tokens.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.Clock">
+            <summary>
+            The clock used for requesting Access tokens.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.JwtPrivateKey">
+            <summary>
+            Gets or sets the JWT private key.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.ServiceAccountEmail">
+            <summary>
+            Gets or sets the service account email for which access token should be
+            retrieved.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.PrnEmail">
+            <summary>
+            Gets or sets the email of the account for which the call is being made.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.#ctor(Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Initializes a new instance of the OAuth2ProviderForServiceAccounts class.
+            </summary>
+            <param name="config">The config.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.GenerateAccessTokenForServiceAccount">
+            <summary>
+            Gets the access token for service account.
+            </summary>
+            <exception cref="T:System.ArgumentNullException">Thrown if one of the following
+            OAuth2 parameters are empty: ServiceAccountEmail, JwtPrivateKey, Scope
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.OAuth2ProviderForServiceAccounts.RefreshAccessToken">
+            <summary>
+            Refreshes the access token.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.ServiceFactory">
+            <summary>
+            Interface to a factory which can create a particular group of services.
+            For every new service supported, you need an implementation of this
+            interface.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ServiceFactory.config">
+            <summary>
+            An App.config reader suitable for this factory.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.ServiceFactory.Config">
+            <summary>
+            Gets an App.config reader suitable for this factory.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ServiceFactory.CreateService(Google.Api.Ads.Common.Lib.ServiceSignature,Google.Api.Ads.Common.Lib.AdsUser,System.Uri)">
+            <summary>
+            Create a service object.
+            </summary>
+            <param name="signature">Signature of the service being created.</param>
+            <param name="user">The user for which the service is being created.</param>
+            <param name="serverUrl">The server to which the API calls should be
+            made.</param>
+            <returns>An object of the desired service type.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ServiceFactory.ReadHeadersFromConfig(Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Reads the headers from App.config.
+            </summary>
+            <param name="config">The configuration class.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ServiceFactory.CheckServicePreconditions(Google.Api.Ads.Common.Lib.ServiceSignature)">
+            <summary>
+            Checks preconditions of the service signature and throws and exception if the service
+            cannot be generated.
+            </summary>
+            <param name="signature">the service signature for generating the service</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.ServiceSignature">
+            <summary>
+            Defines an API signature object. This class is used as a support class
+            to assist AdsUser in creating a service object.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.ServiceSignature.SupportedProtocols">
+            <summary>
+            The various protocols supported by the library.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ServiceSignature.SupportedProtocols.SOAP">
+            <summary>
+            SOAP
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ServiceSignature.SupportedProtocols.WSE">
+            <summary>
+            WSE
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ServiceSignature.supportedProtocol">
+            <summary>
+            The supported protocol.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ServiceSignature.version">
+            <summary>
+            The service version.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.ServiceSignature.serviceName">
+            <summary>
+            The name of the service.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.ServiceSignature.Id">
+            <summary>
+            A unique id to distinguish the service represented by this signature
+            object.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.ServiceSignature.Version">
+            <summary>
+            Gets the service version.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.ServiceSignature.ServiceName">
+            <summary>
+            Gets the service name.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.ServiceSignature.SupportedProtocol">
+            <summary>
+            Gets the supported protocol.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.ServiceSignature.ServiceType">
+            <summary>
+            Gets the type of service.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.ServiceSignature.#ctor(System.String,System.String,Google.Api.Ads.Common.Lib.ServiceSignature.SupportedProtocols)">
+            <summary>
+            Protected constructor.
+            </summary>
+            <param name="version">Service version.</param>
+            <param name="serviceName">Service name.</param>
+            <param name="protocol">The supported protocol.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.SoapFaultInspector`1">
+            <summary>
+            Inspector that deserializes SOAP faults into AdsExceptions and rethrows them.
+            </summary>
+            <typeparam name="TException">The type of AdsException to throw</typeparam>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Lib.SoapFaultInspector`1.ErrorType">
+            <summary>
+            Gets or sets the type to deserialize faults into.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.SoapFaultInspector`1.BeforeSendRequest(System.ServiceModel.Channels.Message@,System.ServiceModel.IClientChannel)">
+            <summary>
+            A no-op for this inspector.
+            </summary>
+            <param name="request">The request to perform actions with</param>
+            <param name="channel">The channel to the SOAP service</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Lib.SoapFaultInspector`1.AfterReceiveReply(System.ServiceModel.Channels.Message@,System.Object)">
+            <summary>
+            Throws an AdsException if the response was a SOAP fault.
+            </summary>
+            <param name="reply">The response Message</param>
+            <param name="correlationState">The correlation state returned by BeforeSendRequest</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Lib.SoapMessageDirection">
+            <summary>
+            Direction of SOAP message.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.SoapMessageDirection.IN">
+            <summary>
+            Response from the server.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Lib.SoapMessageDirection.OUT">
+            <summary>
+            Request to the server.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry">
+            <summary>
+            A utility class for tracking the usage of various features in the client
+            library.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.FEATURE_USAGE_REGISTRY_KEY">
+            <summary>
+            The key name to use when storing the feature usage registry in
+            ContextStore.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features">
+            <summary>
+            The list of features we need to track.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.Unknown">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.SelectorBuilder">
+            <summary>
+            Group of features used to build selectors in AdWords library. This
+            includes extension methods in Paging, OrderBy and Predicate classes.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.SelectorField">
+            <summary>
+            The selector field enums generated by stub code generator.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.ReportDownloader">
+            <summary>
+            All classes derived from AdsReportUtilities.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.ProductPartitionTree">
+            <summary>
+            ProductPartitionTree and associated classes in AdWords API.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.BatchJobHelper">
+            <summary>
+            BatchJobUtilities and associated classes in AdWords API.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.StatementBuilder">
+            <summary>
+            StatementBuilder class in DFP API.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.OAuthServiceAccountFlow">
+            <summary>
+            Classes that provide OAuth service account flow in AdWords and DFP API.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.OAuthApplicationFlow">
+            <summary>
+            Classes that provide OAuth installed application and web account flows
+            in AdWords and DFP API.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features.Logging">
+            <summary>
+            Classes that provide logging functionality.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.featureUsageMap">
+            <summary>
+            Dictionary to keep track of feature usage.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.#ctor">
+            <summary>
+            Prevents a default instance of the <see cref="T:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry"/> class from being
+            created.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Instance">
+            <summary>
+            Gets the feature usage tracker instance.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.MarkUsage(Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Features)">
+            <summary>
+            Marks the usage of a feature.
+            </summary>
+            <param name="featureName">Name of the feature.</param>
+            <exception cref="T:System.ArgumentException">If the feature is
+            unregistered.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Clear">
+            <summary>
+            Clears the feature usage registry records.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.AdsFeatureUsageRegistry.Text">
+            <summary>
+            Gets a comma separated list of features that have been used.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.DefaultBodyFormatter">
+            <summary>
+            Default instance of TraceFormatter. This class doesn't do any formatting
+            transformation.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.DefaultBodyFormatter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.DefaultBodyFormatter"/>
+            class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.DefaultBodyFormatter.MaskContents(System.String,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the contents of the traced message.
+            </summary>
+            <param name="body">The message body.</param>
+            <param name="keysToMask">The keys for which values should be masked
+            in the message body.</param>
+            <returns>
+            The formatted message body.
+            </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.DefaultTraceWriter">
+            <summary>
+            Default instance of TraceWriter, which just delegates to TraceUtilities.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.ITraceWriter">
+            <summary>
+            Interface for SOAP trace log writers.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.ITraceWriter.WriteDetailedRequestLogs(System.String,System.Boolean)">
+            <summary>
+            Writes detailed logs.
+            </summary>
+            <param name="message">The log content to write</param>
+            <param name="isFailure">If the log is for a failed request.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.ITraceWriter.WriteSummaryRequestLogs(System.String,System.Boolean)">
+            <summary>
+            Writes summary logs.
+            </summary>
+            <param name="message">The log content to write</param>
+            <param name="isFailure">If the log is for a failed request.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.JsonBodyFormatter">
+            <summary>
+            Formats a JSON trace message by masking out sensitive fields.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.JsonBodyFormatter.MaskContents(System.String,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the contents of the traced message.
+            </summary>
+            <param name="body">The message body.</param>
+            <param name="keysToMask">The keys for which values should be masked
+            in the message body.</param>
+            <returns>
+            The formatted message body.
+            </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.KeyValueMessageFormatter">
+            <summary>
+            Formats a Key-value collection message by masking out sensitive fields.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.KeyValueMessageFormatter.MaskContents(System.String,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the contents of the traced message.
+            </summary>
+            <param name="body">The message body.</param>
+            <param name="keysToMask">The keys for which values should be masked
+            in the message body.</param>
+            <returns>
+            The formatted message body.
+            </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.LogEntry">
+            <summary>
+            Helper class for logging.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.config">
+            <summary>
+            The application configuration.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.dateTimeProvider">
+            <summary>
+            The date and time provider.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.isFailure">
+            <summary>
+            The flag to indicate whether this request is a failure or not.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.LogEntry.TraceWriter">
+            <summary>
+            The ITraceWriter to use when writing logs.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.requestInfo">
+            <summary>
+            Gets or sets the request info.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.responseInfo">
+            <summary>
+            Gets or sets the response info.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.MAX_SUMMARY_ERROR_LENGTH">
+            <summary>
+            The max length of a summary log error message.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.ELLIPSIS">
+            <summary>
+            The string to use when truncating a summary log error.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.LogEntry.NEWLINE_REGEX">
+            <summary>
+            A regular expression used to find newlines.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.LogEntry.DetailedRequestLog">
+            <summary>
+            Gets or sets the detailed request log.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.LogEntry.DetailedResponseLog">
+            <summary>
+            Gets or sets the detailed response log.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.LogEntry.DetailedLog">
+            <summary>
+            Gets the detailed log.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.LogEntry.SummaryLog">
+            <summary>
+            Gets the summary log.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.#ctor(Google.Api.Ads.Common.Lib.AppConfig,Google.Api.Ads.Common.Util.DateTimeProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.LogEntry"/> class.
+            </summary>
+            <param name="config">The application configuration.</param>
+            <param name="dateTimeProvider">The date and time provider.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.#ctor(Google.Api.Ads.Common.Lib.AppConfig,Google.Api.Ads.Common.Util.DateTimeProvider,Google.Api.Ads.Common.Logging.ITraceWriter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.LogEntry"/> class.
+            </summary>
+            <param name="config">The application configuration.</param>
+            <param name="dateTimeProvider">The date and time provider.</param>
+            <param name="traceWriter">The trace writer to write with.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.LogRequest(Google.Api.Ads.Common.Logging.RequestInfo,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Logs an HTTP request.
+            </summary>
+            <param name="requestInfo">The request information.</param>
+            <param name="headersToMask">The headers to mask.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.LogRequest(Google.Api.Ads.Common.Logging.RequestInfo,System.Collections.Generic.ISet{System.String},Google.Api.Ads.Common.Logging.TraceFormatter)">
+            <summary>
+            Logs an HTTP request.
+            </summary>
+            <param name="requestInfo">The request information.</param>
+            <param name="headersToMask">The headers to mask.</param>
+            <param name="formatter">The <see cref="T:Google.Api.Ads.Common.Logging.TraceFormatter"/> to use when
+            formatting the message.</param>
+            <returns>The request logs</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.LogResponse(Google.Api.Ads.Common.Logging.ResponseInfo)">
+            <summary>
+            Logs an HTTP response.
+            </summary>
+            <param name="responseInfo">The response information.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.LogResponse(Google.Api.Ads.Common.Logging.ResponseInfo,System.Collections.Generic.ISet{System.String},Google.Api.Ads.Common.Logging.TraceFormatter)">
+            <summary>
+            Logs an HTTP response.
+            </summary>
+            <param name="responseInfo">The response information.</param>
+            <param name="fieldsToMask">The list of fields to mask.</param>
+            <param name="formatter">The formatter to be used for formatting the
+            response logs.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.LogResponseDetails(Google.Api.Ads.Common.Logging.ResponseInfo,System.Collections.Generic.ISet{System.String},Google.Api.Ads.Common.Logging.TraceFormatter)">
+            <summary>
+            Logs the details of an HTTP response.
+            </summary>
+            <param name="responseInfo">The response information.</param>
+            <param name="fieldsToMask">The list of fields to mask.</param>
+            <param name="formatter">The formatter to be used for formatting the
+            response logs.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.Flush">
+            <summary>
+            Writes the HTTP logs.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetFormattedRequestLog(Google.Api.Ads.Common.Logging.RequestInfo,System.Collections.Generic.ISet{System.String},Google.Api.Ads.Common.Logging.TraceFormatter)">
+            <summary>
+            Gets the formatted logs for an HTTP request.
+            </summary>
+            <param name="requestInfo">The request information.</param>
+            <param name="headersToMask">The headers to mask.</param>
+            <param name="traceFormatter">The trace formatter to use when formatting
+            the message.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetFormattedResponseLog(Google.Api.Ads.Common.Logging.ResponseInfo)">
+            <summary>
+            Gets the formatted logs for an HTTP response.
+            </summary>
+            <param name="responseInfo">The response information.</param>
+            <returns>The response log text.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetFormattedResponseLog(Google.Api.Ads.Common.Logging.ResponseInfo,System.Collections.Generic.ISet{System.String},Google.Api.Ads.Common.Logging.TraceFormatter)">
+            <summary>
+            Gets the formatted logs for an HTTP response.
+            </summary>
+            <param name="responseInfo">The response information.</param>
+            <param name="headersToMask">The headers to mask.</param>
+            <param name="traceFormatter">The trace formatter to use when formatting
+            the message.</param>
+            <returns>The response log text.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetFormattedHttpHeaderLogs(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            Gets the formatted logs for HTTP request or response headers.
+            </summary>
+            <param name="headers">The HTTP headers.</param>
+            <param name="seps">The separator string.</param>
+            <returns>The log output.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.MaskHeaders(System.Net.WebHeaderCollection,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the headers.
+            </summary>
+            <param name="headers">The list of all headers</param>
+            <param name="headersToMask">The list of headers to mask.</param>
+            <returns>The list of headers, after masking.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetTraceFormatterForHTTPRequests(System.Boolean)">
+            <summary>
+            Gets the trace formatter for formatting an HTTP request.
+            </summary>
+            <param name="shouldMask">True, if fields should be masked, false
+            otherwise.</param>
+            <returns>A trace formatter for formatting HTTP request.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetRequestSummary(System.Net.WebHeaderCollection,System.String,System.Collections.Generic.ISet{System.String},Google.Api.Ads.Common.Logging.TraceFormatter)">
+            <summary>
+            Gets the request summary for logging.
+            </summary>
+            <param name="headers">The HTTP request headers.</param>
+            <param name="body">The HTTP request body.</param>
+            <param name="headersToMask">The set of headers to mask</param>
+            <param name="formatter">The formatter to use for masking</param>
+            <returns>The request summary for logging.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.GetTimeStamp">
+            <summary>
+            Gets the current timestamp as a formatted string.
+            </summary>
+            <returns>The current timestamp.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.LogEntry.TruncateErrorMessage(System.String)">
+            <summary>
+            Truncates an error message for display, if necessary.
+            </summary>
+            <param name="errorMessage">The error message to be displayed.</param>
+            <returns>An error message suitable for display, possibly truncated.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.RequestInfo">
+            <summary>
+            Stores the details of an HTTP request being logged.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.Uri">
+            <summary>
+            The request URI.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.HttpMethod">
+            <summary>
+            The HTTP request method.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.Headers">
+            <summary>
+            The HTTP request headers.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.Body">
+            <summary>
+            The HTTP request body.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.Service">
+            <summary>
+            The service being requested.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.Method">
+            <summary>
+            The method being requested.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.IdentifierName">
+            <summary>
+            The identifier associated with this request.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.RequestInfo.IdentifierValue">
+            <summary>
+            The value of the identifier associated with this request.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.RequestInfo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.RequestInfo"/> class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.RequestInfo.#ctor(System.Net.WebRequest,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.RequestInfo"/> class.
+            </summary>
+            <param name="request">The HTTP request being logged.</param>
+            <param name="body">The HTTP request body.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.ResponseInfo">
+            <summary>
+            Stores the details of an HTTP response being logged.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.Headers">
+            <summary>
+            The HTTP response headers.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.Body">
+            <summary>
+            The HTTP response body.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.StatusCode">
+            <summary>
+            The HTTP status code of the response.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.RequestId">
+            <summary>
+            The ID of the preceeding request.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.OperationCount">
+            <summary>
+            The count of operations included in the preceeding request.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.ResponseTimeMs">
+            <summary>
+            The response time in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.ResponseInfo.ErrorMessage">
+            <summary>
+            The error message associated with this response.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.ResponseInfo.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.ResponseInfo"/> class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.ResponseInfo.#ctor(System.Net.WebResponse,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.ResponseInfo"/> class.
+            </summary>
+            <param name="response">The HTTP response.</param>
+            <param name="body">The HTTP response body.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.SoapListener">
+            <summary>
+            Listens to SOAP messages sent and received by this library.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListener.InitForCall">
+            <summary>
+            Initializes the listener for handling an API call.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListener.HandleMessage(Google.Api.Ads.Common.Logging.RequestInfo,Google.Api.Ads.Common.Logging.ResponseInfo)">
+            <summary>
+            Handles the request and response for a message.
+            </summary>
+            <param name="requestInfo">Request info.</param>
+            <param name="responseInfo">Response info.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListener.CleanupAfterCall">
+            <summary>
+            Cleans up any resources after an API call.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.SoapListenerInspector">
+            <summary>
+            Define a SOAP Extension that traces the SOAP request and SOAP response
+            for the XML Web service method the SOAP extension is applied to.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListenerInspector.#ctor(Google.Api.Ads.Common.Lib.AdsUser,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Logging.SoapListenerInspector"/>
+            class.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.SoapListenerInspector.requestInfo">
+            <summary>
+            The RequestInfo to log.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.SoapListenerInspector.responseInfo">
+            <summary>
+            The ResponseInfo to log.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.SoapListenerInspector.user">
+            <summary>
+            The AdsUser to call listeners for.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.SoapListenerInspector.serviceName">
+            <summary>
+            The name of the service this listener is applied to.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListenerInspector.GetMessageBody(System.ServiceModel.Channels.Message@)">
+            <summary>
+            Gets the message body as a string.
+            </summary>
+            <returns>The message body.</returns>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListenerInspector.BeforeSendRequest(System.ServiceModel.Channels.Message@,System.ServiceModel.IClientChannel)">
+            <summary>
+            Logs the request information.
+            </summary>
+            <param name="request">The message to be sent to the service</param>
+            <param name="channel">The WCF client object channel</param>
+            <returns>The object to be used as the correlationState argument of the AfterReceiveReply
+            method. This is null if no correlation state is used.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapListenerInspector.AfterReceiveReply(System.ServiceModel.Channels.Message@,System.Object)">
+            <summary>
+            Logs the response information.
+            </summary>
+            <param name="response">The message to be transformed into types
+            and handed back to the client application.</param>
+            <param name="correlationState">Correlation state data returned by BeforeSendRequest</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.SoapTraceFormatter">
+            <summary>
+            Formats a SOAP message.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.SoapTraceFormatter.MaskContents(System.String,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the contents of the traced message.
+            </summary>
+            <param name="body">The message body.</param>
+            <param name="keysToMask">The keys for which values should be masked
+            in the message body.</param>
+            <returns>
+            The formatted message body.
+            </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.TraceFormatter">
+            <summary>
+            Formats a Trace message.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.TraceFormatter.MASK_PATTERN">
+            <summary>
+            The mask pattern to be used when masking sensitive data in logs.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceFormatter.MaskContents(System.String,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the contents of the traced message.
+            </summary>
+            <param name="body">The message body.</param>
+            <param name="keysToMask">The keys for which values should be masked
+            in the message body.</param>
+            <returns>The formatted message body.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.TraceListener">
+            <summary>
+            Listens to SOAP messages sent and received by this library.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.TraceListener.config">
+            <summary>
+            The config class to be used with this class.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Logging.TraceListener.dateTimeProvider">
+            <summary>
+            The date and time provider.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.TraceListener.TraceWriter">
+            <summary>
+            The ITraceWriter to use when writing SOAP messages.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.TraceListener.DateTimeProvider">
+            <summary>
+            Gets or sets the date and time provider.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Logging.TraceListener.Config">
+            <summary>
+            Gets the config class to be used with this class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.#ctor(Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Protected constructor.
+            </summary>
+            <param name="config">The config class.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.InitForCall">
+            <summary>
+            Initializes the listener for handling an API call.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.HandleMessage(Google.Api.Ads.Common.Logging.RequestInfo,Google.Api.Ads.Common.Logging.ResponseInfo)">
+            <summary>
+            Handles the SOAP message.
+            </summary>
+            <param name="requestInfo">Request info.</param>
+            <param name="responseInfo">Response info.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.CleanupAfterCall">
+            <summary>
+            Cleans up any resources after an API call.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.PerformLogging(Google.Api.Ads.Common.Logging.RequestInfo,Google.Api.Ads.Common.Logging.ResponseInfo)">
+            <summary>
+            Performs the SOAP and HTTP logging.
+            </summary>
+            <param name="request">The request information.</param>
+            <param name="response">The response information.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.GetFieldsToMask">
+            <summary>
+            Gets a list of fields to be masked in xml logs.
+            </summary>
+            <returns>The list of fields to be masked.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.PopulateRequestInfo(Google.Api.Ads.Common.Logging.RequestInfo@)">
+            <summary>
+            Parses the body of the request and populates fields in the request info.
+            </summary>
+            <param name="info">The request info for this SOAP call.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.PopulateResponseInfo(Google.Api.Ads.Common.Logging.ResponseInfo@)">
+            <summary>
+            Parses the body of the response and populates fields in the repsonse info.
+            </summary>
+            <param name="info">The response info for this SOAP call.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.TraceListener.RetrieveLoggableHeader(System.Xml.XmlNode,System.String)">
+            <summary>
+            Returns a string containing the specified loggable headers, retrieved from the specified
+            header XML node.
+            </summary>
+            <param name="headerNode">An XML node containing loggable headers.</param>
+            <param name="loggableHeader">The loggable header to retrieve.</param>
+            <returns>A string containing the specified loggable headers.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Logging.UrlEncodedBodyFormatter">
+            <summary>
+            Formats a URL encoded HTTP trace message by masking out sensitive fields.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Logging.UrlEncodedBodyFormatter.MaskContents(System.String,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Masks the contents of the traced message.
+            </summary>
+            <param name="body">The message body.</param>
+            <param name="keysToMask">The keys for which values should be masked
+            in the message body.</param>
+            <returns>
+            The formatted message body.
+            </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.CollectionUtilities">
+            <summary>
+            Provides utility methods for working with collections.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CollectionUtilities.TryGetValue``2(System.Collections.Generic.Dictionary{``0,``1},``0)">
+            <summary>
+            Attempts to retrieve a value associated with the specified key from the specified
+            Dictionary.</summary>
+            <param name="dictionary">The dictionary to query.</param>
+            <param name="key">The key to retrieve a value for.</param>
+            <returns>
+            The value associated with the spcified key, or the default value for that type if none
+            could be found.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CollectionUtilities.TryGetValue``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)">
+            <summary>
+            Attempts to retrieve a value associated with the specified key from the specified
+            Dictionary.</summary>
+            <param name="dictionary">The dictionary to query.</param>
+            <param name="key">The key to retrieve a value for.</param>
+            <param name="defaultValue">The value to return if none could be found.</param>
+            <returns>
+            The value associated with the spcified key, or defaultValue if none could be found.
+            </returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CollectionUtilities.AddValueToArray``1(``0[],``0)">
+            <summary>
+            Expands an array and adds a value to it.
+            </summary>
+            <typeparam name="T">Type of the array.</typeparam>
+            <param name="oldArray">The old array.</param>
+            <param name="newValue">The new value.</param>
+            <returns>The expanded array.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.CsvException">
+            <summary>
+            Custom exception class for handling csv errors.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvException.#ctor">
+            <summary>
+            Public constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvException.#ctor(System.String)">
+            <summary>
+            Public constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvException.#ctor(System.String,System.Exception)">
+            <summary>
+            Public constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+            <param name="innerException">Inner exception, if any.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Protected constructor. Used by serialization frameworks while
+            deserializing an exception object.
+            </summary>
+            <param name="info">Info about the serialization context.</param>
+            <param name="context">A streaming context that represents the
+            serialization stream.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.CsvFile">
+            <summary>
+            Wraps the functionalities to read and write from a CSV file.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.CsvFile.headers">
+            <summary>
+            Headers in the csv file.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.CsvFile.records">
+            <summary>
+            Records in the csv file.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.CsvFile.Headers">
+            <summary>
+            List of CSV file headers.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.CsvFile.Records">
+            <summary>
+            List of records in the CSV file.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.#ctor">
+            <summary>
+            Public constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.Read(System.String,System.Boolean)">
+            <summary>
+            Reads the contents of the CSV file into memory.
+            </summary>
+            <param name="fileName">Full path to the csv file.</param>
+            <param name="hasHeaders">True, if the first line of the csv file
+            is a header.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.ReadFromString(System.String,System.Boolean)">
+            <summary>
+            Reads the contents of the CSV string into memory.
+            </summary>
+            <param name="contents">Text to be parsed as csv file contents.</param>
+            <param name="hasHeaders">True, if the first line of the csv file
+            contents is a header.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.Write(System.String)">
+            <summary>
+            Writes the contents of the CsvFile object into a file.
+            </summary>
+            <param name="fileName">The full path of the file to which
+            the contents are to be written.</param>
+            <remarks>The file will have headers only if <see cref="P:Google.Api.Ads.Common.Util.CsvFile.Headers"/>
+            are set for this object.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.ConvertRowToCsvString(System.String[])">
+            <summary>
+            Converts a csv row item collection into a csv string.
+            </summary>
+            <param name="rowItems">An array of string items which represents
+            one row in CSV file.</param>
+            <returns>A StringBuilder object representing the stringized row.
+            You can call a ToString() to get the stringized representation
+            for this row.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.Load(System.String,System.Boolean)">
+            <summary>
+            Parses a csv file and loads it into memory.
+            </summary>
+            <param name="filePath">Full path to the csv file.</param>
+            <param name="hasHeaders">True, if the first line of the csv file
+            is a header.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.Parse(System.String,System.Boolean)">
+            <summary>
+            Parses a csv file's contents and loads it into memory.
+            </summary>
+            <param name="contents">File contents that should be parsed into memory.
+            </param>
+            <param name="hasHeaders">True, if the first line of the csv file is
+            a header.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.SplitCsvLine(System.String,System.StringSplitOptions)">
+            <summary>
+            Splits a csv line into its components.
+            </summary>
+            <param name="text">The comma separated line to be split into
+            components.</param>
+            <param name="options">The string splitting options.</param>
+            <returns>The items, broken down as an array of strings.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="text"/> is null.</exception>
+            <exception cref="T:Google.Api.Ads.Common.Util.CsvException">Thrown if the csv string is malformed.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.CsvFile.ExtractAndAddItem(System.String,System.Int32,System.Int32,System.StringSplitOptions)">
+            <summary>
+            Extracts one token identified by SplitCsvLine.
+            </summary>
+            <param name="text">The original comma separated line.</param>
+            <param name="startIndex">Start index for the item just identified.
+            </param>
+            <param name="endIndex">Stop index for the item just identified.</param>
+            <param name="options">The string split options to be used while
+            extracting the token.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="text"/> is null or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown if 0 &lt;
+            <paramref name="startIndex"/> &lt;= <paramref name="endIndex"/> &lt;=
+            <paramref name="text"/>.Length is not met.</exception>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.DateTimeProvider">
+            <summary>
+            Provides the current date and time, without depending directly on
+            System.DateTime. This makes testing code that depends on timestamps
+            easier.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.DateTimeProvider.Now">
+            <summary>
+            Gets the current time.
+            </summary>
+            <value>
+            The current time.
+            </value>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.DefaultDateTimeProvider">
+            <summary>
+            Default implementation of DateTimeProvider.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.DefaultDateTimeProvider.Now">
+            <summary>
+            Gets the current time.
+            </summary>
+            <value>
+            The current time.
+            </value>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.DeprecationUtilities">
+            <summary>
+            Utility class to display deprecation message at runtime.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.DeprecationUtilities.ShowDeprecationMessage(System.Reflection.MemberInfo)">
+            <summary>
+            Writes a deprecation message to Trace stream.
+            </summary>
+            <param name="memberInfo">Details of the deprecated member.</param>
+            <remarks>The member corresponding to memberInfo should be annotated with
+            an ObsoleteAttribute.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.DeprecationUtilities.GetDeprecationMessage(System.Reflection.MemberInfo)">
+            <summary>
+            Gets the deprecation message to be displayed.
+            </summary>
+            <param name="memberInfo">Details of the deprecated member.</param>
+            <returns>The deprecation message as found on the ObsoleteAttribute
+            decoration for this member, or null otherwise.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.HttpUtilities">
+            <summary>
+            Utility class for various HTTP tasks.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.HttpUtilities.BuildRangeRequest(System.String,System.Int32,System.String)">
+            <summary>
+            Builds an HTTP PUT request with a Range header.
+            </summary>
+            <param name="url">The URL.</param>
+            <param name="contentLength">Length of the content.</param>
+            <param name="range">The range heaer notation.</param>
+            <returns>The web request for making HTTP call.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.HttpUtilities.BuildRangeRequest(System.String,System.Int32,System.String,Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Builds an HTTP PUT request with a Range header.
+            </summary>
+            <param name="url">The URL.</param>
+            <param name="contentLength">Length of the content.</param>
+            <param name="range">The range heaer notation.</param>
+            <param name="config">The configuration instance for customizing the
+            connection settings.</param>
+            <returns>The web request for making HTTP call.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="config"/>
+            is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.HttpUtilities.BuildRequest(System.String,System.String)">
+            <summary>
+            Builds an HTTP request with a specified method.
+            </summary>
+            <param name="url">The URL.</param>
+            <param name="method">The HTTP method.</param>
+            <returns>The web request for making HTTP call.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.HttpUtilities.BuildRequest(System.String,System.String,Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Builds an HTTP request with a specified method.
+            </summary>
+            <param name="url">The URL.</param>
+            <param name="method">The HTTP method.</param>
+            <param name="config">The configuration instance for customizing the
+            connection settings.</param>
+            <returns>The web request for making HTTP call.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if <paramref name="config"/>
+            is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.HttpUtilities.GetErrorResponseBody(System.Net.WebException)">
+            <summary>
+            Gets the error response body.
+            </summary>
+            <param name="e">The web exception.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.HttpUtilities.WritePostBodyAndLog(System.Net.WebRequest,System.String,System.String,Google.Api.Ads.Common.Logging.LogEntry,System.Collections.Generic.ISet{System.String})">
+            <summary>
+            Attempts to write a post body and log the request.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="postBody">The post body.</param>
+            <param name="service">The service making this request.</param>
+            <param name="logEntry">The log entry.</param>
+            <param name="headersToMask">The headers to mask.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.MediaUtilities">
+            <summary>
+            Provides utility methods for handling media resources.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.GetAssetDataFromUrl(System.Uri,Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Retrieves an asset from the web given its url.
+            </summary>
+            <param name="assetUrl">The url of the asset to be retrieved.</param>
+            <param name="config">The application configuration instance.</param>
+            <returns>Asset data, as an array of bytes.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="assetUrl"/> or <paramref name="config"/>is null.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.GetAssetDataFromUrl(System.Uri)">
+            <summary>
+            Retrieves an asset from the web given its url.
+            </summary>
+            <param name="assetUrl">The url of the asset to be retrieved.</param>
+            <returns>Asset data, as an array of bytes.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="assetUrl"/> is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.GetAssetDataFromUrl(System.String)">
+            <summary>
+            Retrieves an asset from the web given its url.
+            </summary>
+            <param name="assetUrl">The url of the asset to be retrieved.</param>
+            <returns>Asset data, as an array of bytes.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="assetUrl"/> is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.GetAssetDataFromUrl(System.String,Google.Api.Ads.Common.Lib.AppConfig)">
+            <summary>
+            Retrieves an asset from the web given its url.
+            </summary>
+            <param name="assetUrl">The url of the asset to be retrieved.</param>
+            <param name="config">The application configuration instance.</param>
+            <returns>Asset data, as an array of bytes.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="assetUrl"/> or <paramref name="config" /> is null.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.DeflateGZipData(System.Byte[])">
+            <summary>
+            Deflates data compressed in gzip format.
+            </summary>
+            <param name="gzipData">Data to be deflated.</param>
+            <returns>Deflated data.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if
+            <paramref name="gzipData"/> is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.CopyStreamWithPreview(System.IO.Stream,System.IO.Stream,System.Int32)">
+            <summary>
+            Copies a stream from source to destination and returns the first n
+            bytes as preview.
+            </summary>
+            <param name="sourceStream">Source stream.</param>
+            <param name="targetStream">Destination stream.</param>
+            <param name="maxPreviewBytes">The maximum number of preview bytes to
+            return.</param>
+            <returns>An array of bytes, whose max size is maxPreviewBytes.</returns>
+            <exception cref="T:System.ArgumentException">Thrown if source stream is not
+            readable, or if the target stream is not writable.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown if <paramref name="sourceStream"/> or
+            <paramref name="targetStream"/> is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.CopyStream(System.IO.Stream,System.IO.Stream)">
+            <summary>
+            Copies a stream from source to destination.
+            </summary>
+            <param name="sourceStream">Source stream.</param>
+            <param name="targetStream">Destination stream.</param>
+            <exception cref="T:System.ArgumentException">Thrown if source stream is not
+            readable, or if the target stream is not writable.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown if <paramref name="sourceStream"/> or
+            <paramref name="targetStream"/> is null.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.MediaUtilities.GetStreamContentsAsString(System.IO.Stream)">
+            <summary>
+            Gets the stream contents as string.
+            </summary>
+            <param name="stream">The stream.</param>
+            <returns>Contents of the stream, as a string.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.PreconditionUtilities">
+            <summary>
+            Provides utility methods for checking preconditions.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.PreconditionUtilities.CheckArgumentNotNull(System.Object,System.String)">
+            <summary>
+            Utility method for null checking arguments.
+            </summary>
+            <param name="value">The Object to check</param>
+            <param name="argument">The name of the argument being checked</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.PreconditionUtilities.CheckArgument(System.Boolean,System.String)">
+            <summary>
+            Utility method for null checking arguments.
+            </summary>
+            <param name="condition">The Object to check</param>
+            <param name="message">The name of the argument being checked</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.PreconditionUtilities.CheckNotNull(System.Object,System.String)">
+            <summary>
+            Utility method for checking values.
+            </summary>
+            <param name="value">The Object to check</param>
+            <param name="message">The error message if the Object is null</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.PreconditionUtilities.CheckState(System.Boolean,System.String)">
+            <summary>
+            Utility method for checking the state of a class or method.
+            </summary>
+            <param name="condition">The condition to check.</param>
+            <param name="message">The error message to use if the condition check
+            fails.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities">
+            <summary>
+            The base class for all Ads API report download utilities.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.WAIT_PERIOD">
+            <summary>
+            The duration in milliseconds to wait between each poll to see if a
+            report is ready to be downloaded.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.OnReadyCallback">
+            <summary>
+            Delegate to be triggered when the report is ready to download.
+            </summary>
+            <param name="response">The report response.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.OnFailedCallback">
+            <summary>
+            Delegate to be triggered when the report download failed.
+            </summary>
+            <param name="exception">The report download exception.</param>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.user">
+            <summary>
+            The user associated with this object.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.asyncThread">
+            <summary>
+            The thread to use when downloading the report in an asynchronous manner.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.onReady">
+            <summary>
+            The callback that will be triggered when the report is ready to be
+            downloaded.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.onFailed">
+            <summary>
+            The callback that will be triggered when the report download fails.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.#ctor(Google.Api.Ads.Common.Lib.AdsUser)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities"/>
+            class.
+            </summary>
+            <param name="user">AdWords user to be used along with this
+            utilities object.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.ShouldWaitMore">
+            <summary>
+            Returns a flag indicating whether the caller should wait more time for
+            the report download to complete.
+            </summary>
+            <returns>True, if the caller should wait more, false otherwise.
+            </returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.Schedule">
+            <summary>
+            Schedules a report for download.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.GetReport">
+            <summary>
+            Gets the report response.
+            </summary>
+            <returns>The report response.</returns>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.User">
+            <summary>
+            Returns the user associated with this object.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.OnReady">
+            <summary>
+            Gets or sets the callback that will be triggered when the report is
+            ready to be downloaded.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.OnFailed">
+            <summary>
+            Gets or sets the callback that will be triggered when the report
+            download fails.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.GetResponseAsync">
+            <summary>
+            Gets the report download response asynchronously.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportUtilities.GetResponse">
+            <summary>
+            Gets the report download response.
+            </summary>
+            <returns>The report response.</returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.ReportResponse">
+            <summary>
+            Represents a report response from the server.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.ReportResponse.contents">
+            <summary>
+            The report contents in memory.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.ReportResponse.response">
+            <summary>
+            The underlying HTTP web response.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.Reports.ReportResponse.disposed">
+            <summary>
+            Flag to keep track if this report response has been disposed.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnDownloadSuccessCallback">
+            <summary>
+            Delegate to be triggered when asynchronous report download is completed
+            successfully.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnSaveSuccessCallback">
+            <summary>
+            Delegate to be triggered when asynchronous report save is completed
+            successfully.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnFailedCallback">
+            <summary>
+            Delegate to be triggered when asynchronous report download fails.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.#ctor(System.Net.WebResponse)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Util.Reports.ReportResponse"/> class.
+            </summary>
+            <param name="response">The underlying HTTP web response.</param>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnDownloadSuccess">
+            <summary>
+            The callback that will be triggered when the asynchronous report
+            download is completed successfully.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnSaveSuccess">
+            <summary>
+            The callback that will be triggered when the asynchronous report
+            save is completed successfully.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnFailed">
+            <summary>
+            Gets the callback that will be triggered when the asynchronous report
+            download fails.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.Stream">
+            <summary>
+            Gets the report contents as a stream.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.DecompressedStream">
+            <summary>
+            Gets the report contents as a decompressed stream.
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.Path">
+            <summary>
+            Gets the path to the downloaded report.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.Save(System.String)">
+            <summary>
+            Saves the report to a specified path and closes the underlying stream.
+            </summary>
+            <param name="path">The path to which report is saved.</param>
+            <exception cref="T:Google.Api.Ads.Common.Util.Reports.AdsReportsException">If there was an error saving the report.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.SaveAsync(System.String)">
+            <summary>
+            Saves the report to a specified path asynchronously and closes the underlying stream.
+            <see cref="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnSaveSuccess"/> callback will be triggered when the download completes
+            successfully, and <see cref="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnFailed"/> callback will be triggered when the download
+            fails.
+            </summary>
+            <param name="path">The path to which report is saved.</param>
+            <exception cref="T:Google.Api.Ads.Common.Util.Reports.AdsReportsException">If there was an error saving the report.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.Download">
+            <summary>
+            Downloads the report to memory and closes the underlying stream.
+            </summary>
+            <exception cref="T:Google.Api.Ads.Common.Util.Reports.AdsReportsException">If there was an error downloading the report.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.DownloadAsync">
+            <summary>
+            Downloads the report to memory asynchronously and closes the underlying stream.
+            <see cref="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnDownloadSuccess"/> callback will be triggered when the download completes
+            successfully, and <see cref="P:Google.Api.Ads.Common.Util.Reports.ReportResponse.OnFailed"/> callback will be triggered when the download
+            fails.
+            </summary>
+            <exception cref="T:Google.Api.Ads.Common.Util.Reports.AdsReportsException">If there was an error downloading the report.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.EnsureStreamIsOpen">
+            <summary>
+            Checks to ensure that the underlying stream has not been closed.
+            </summary>
+            <exception cref="T:Google.Api.Ads.Common.Util.Reports.AdsReportsException">If the underlying stream has been closed.
+            </exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing,
+            or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.Dispose(System.Boolean)">
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and
+            unmanaged resources; <c>false</c> to release only unmanaged resources.
+            </param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.CloseWebResponse">
+            <summary>
+            Closes the underlying HTTP web response.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.ReportResponse.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:Google.Api.Ads.Common.Util.Reports.ReportResponse"/> class.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.Reports.AdsReportsException">
+            <summary>
+            Custom exception class for handling reporting errors.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportsException.#ctor">
+            <summary>
+            Public constructor.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportsException.#ctor(System.String)">
+            <summary>
+            Public constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Public constructor.
+            </summary>
+            <param name="message">Error message for this API exception.</param>
+            <param name="innerException">Inner exception, if any.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Protected constructor. Used by serialization frameworks while
+            deserializing an exception object.
+            </summary>
+            <param name="info">Info about the serialization context.</param>
+            <param name="context">A streaming context that represents the
+            serialization stream.</param>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.Reports.AdsReportsException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            This method is called by serialization frameworks while serializing
+            an exception object.
+            </summary>
+            <param name="info">Info about the serialization context.</param>
+            <param name="context">A streaming context that represents the
+            serialization stream.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.SerializationUtilities">
+            <summary>
+            This class provides utility methods in serializing and deserializing an
+            object as xml.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.SerializationUtilities.customSerializerMaps">
+            <summary>
+            A map to store custom xml serializers.
+            </summary>
+            <remarks> For background, see
+            http://support.microsoft.com/kb/886385/en-us. The summary of the issue
+            is that .NET runtime will leak XmlSerializer objects if the non-custom
+            constructor (custom rootNode, namespace, etc.) is requested, and hence
+            the serializers need to be cached locally. To replicate memory leaks,
+            write AdWords API code that will throw a lot of SOAPExceptions. The
+            XmlSerializers obtained for deserializing the SOAP exceptions will be
+            leaked by the runtime.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.SerializationUtilities.DeserializeFromXmlTextCustomRootNs(System.String,System.Type,System.String,System.String)">
+            <summary>
+            Deserialize an object from xml for a custom root node and xml namespace.
+            </summary>
+            <param name="contents">The serialized xml.</param>
+            <param name="contentType">The type of deserialized object.</param>
+            <param name="ns">The xml namespace of the object in serialized xml.
+            </param>
+            <param name="rootNode">The root node name for the object in serialized
+            xml.</param>
+            <returns>The deserialized object or null if deserialization fails.
+            </returns>
+            <remarks><paramref name="contentType"/> must be XmlSerializable.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.SerializationUtilities.GetCustomXmlSerializer(System.Type,System.String,System.String)">
+            <summary>
+            Gets a custom serializer for a type from a cache.
+            </summary>
+            <param name="contentType">The type of deserialized object.</param>
+            <param name="ns">The xml namespace of the object in serialized xml.
+            </param>
+            <param name="rootNode">The root node name for the object in serialized
+            xml.</param>
+            <returns>The xml serializer.</returns>
+            <remarks>See http://support.microsoft.com/kb/886385/en-us and
+            http://code.google.com/p/google-api-adwords-dotnet/issues/detail?id=78
+            for more details.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.SerializationUtilities.DeserializeFromXmlText(System.String,System.Type)">
+            <summary>
+            Deserialize an object from xml.
+            </summary>
+            <param name="contents">The serialized xml.</param>
+            <param name="contentType">The type of deserialized object.</param>
+            <returns>The deserialized object.</returns>
+            <remarks><paramref name="contentType"/> must be XmlSerializable.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.SerializationUtilities.DeserializeFromXmlText(System.Xml.Serialization.XmlSerializer,System.String)">
+            <summary>
+            Deserialize an object from xml.
+            </summary>
+            <param name="contents">The serialized xml.</param>
+            <param name="serializer">The serializer to be used for deserializing
+            the objects.</param>
+            <returns>The deserialized object.</returns>
+            <remarks><paramref name="contents"/> must be XmlSerializable.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.SerializationUtilities.SerializeAsXmlText(System.Object)">
+            <summary>
+            Serializes an object as xml.
+            </summary>
+            <param name="objToSerialize">The object to serialize.</param>
+            <returns>The serialized xml string.</returns>
+            <remarks><paramref name="objToSerialize"/> must be XmlSerializable.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.SerializationUtilities.CloneObject(System.Object)">
+            <summary>
+            Clones an object.
+            </summary>
+            <param name="objToClone">The object to clone.</param>
+            <returns>The cloned object.</returns>
+            <remarks><paramref name="objToClone"/> must be Serializable.
+            </remarks>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.SerializationUtilities.Utf8StringWriter">
+            <summary>
+            Used for serializing string into UTF-8 xml, instead of default Unicode.
+            (utf-16). 
+            </summary>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.SerializationUtilities.Utf8StringWriter.Encoding">
+            <summary>
+            Gets the <see cref="T:System.Text.Encoding" /> in which the output is
+            written.
+            </summary>
+            <returns>
+            The Encoding in which the output is written.
+              </returns>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.TemporaryIdGenerator">
+            <summary>
+            Generates a sequence of temporary negative IDs.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TemporaryIdGenerator.sequence">
+            <summary>
+            The number generation sequence.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TemporaryIdGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Util.TemporaryIdGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TemporaryIdGenerator.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Google.Api.Ads.Common.Util.TemporaryIdGenerator"/> class.
+            </summary>
+            <param name="startId">The ID to start generating the sequence from.</param>
+            <exception cref="T:System.ArgumentException">If startId is a positive value.</exception>
+            <remarks>The IDs are generated in the <i>increasing</i> order from the
+            <paramref name="startId"/>.</remarks>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.TemporaryIdGenerator.Next">
+            <summary>
+            Returns the next ID in the list.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Google.Api.Ads.Common.Util.TemporaryIdGenerator.Sequence">
+            <summary>
+            Gets the sequence of numbers.
+            </summary>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.TraceUtilities">
+            <summary>
+            Provides utility methods to write to Trace stream.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.featureUsageRegistry">
+            <summary>
+            The registry for saving feature usage information..
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.FEATURE_ID">
+            <summary>
+            The feature ID for this class.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.DEPRECATION_MESSAGES_SOURCE">
+            <summary>
+            Trace source for deprecation messages.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.GENERAL_WARNING_MESSAGES_SOURCE">
+            <summary>
+            Trace source for general warning messages.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.DETAILED_REQUEST_LOGS_SOURCE">
+            <summary>
+            Trace source for detailed HTTP request logs.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.SUMMARY_REQUEST_LOGS_SOURCE">
+            <summary>
+            Trace source for summarized HTTP request logs.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.KNOWN_TRACE_SOURCES">
+            <summary>
+            The list of known Trace sources.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.#cctor">
+            <summary>
+            Initializes the <see cref="T:Google.Api.Ads.Common.Util.TraceUtilities"/> class.
+            </summary>
+        </member>
+        <member name="F:Google.Api.Ads.Common.Util.TraceUtilities.ADS_API_TRACE_ID">
+            <summary>
+            The Trace message id.
+            </summary>
+            <remarks>Trace.Write needs a TRACE id to categorize messages, but since
+            we don't provide any categorization, we will use a standard value.
+            </remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.GetSource(System.String)">
+            <summary>
+            Gets a Trace source by name.
+            </summary>
+            <param name="sourceName">Name of the Trace source.</param>
+            <returns>The trace source.</returns>
+            <exception cref="T:System.ArgumentException">Thrown if the trace source is
+            unknown.</exception>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.WriteDeprecationWarnings(System.String)">
+            <summary>
+            Writes the deprecation warnings.
+            </summary>
+            <param name="message">The message.</param>
+            <remarks>The trace levels may be controlled from App.config by setting
+            the level for AdsClientLibs.DeprecationMessages trace switch.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.WriteGeneralWarnings(System.String)">
+            <summary>
+            Writes the general warnings.
+            </summary>
+            <param name="message">The message.</param>
+            <remarks>The trace levels may be controlled from App.config by setting
+            the level for AdsClientLibs.GeneralWarningMessages trace switch.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.WriteGeneralErrors(System.String)">
+            <summary>
+            Writes the general errors.
+            </summary>
+            <param name="message">The message.</param>
+            <remarks>The trace levels may be controlled from App.config by setting
+            the level for AdsClientLibs.GeneralWarningMessages trace switch.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.WriteDetailedRequestLogs(System.String,System.Boolean)">
+            <summary>
+            Writes detailed HTTP request logs.
+            </summary>
+            <param name="message">The HTTP request logs.</param>
+            <param name="isError">Indicates whether or not these are error logs.</param>
+            <remarks>The trace levels may be controlled from App.config by setting
+            the level for AdsClientLibs.DetailedRequestLogs trace switch.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.WriteSummaryRequestLogs(System.String,System.Boolean)">
+            <summary>
+            Writes the summarized HTTP request logs.
+            </summary>
+            <param name="message">The summarized HTTP request logs.</param>
+            <param name="isError">Indicates whether or not these are error logs.</param>
+            <remarks>The trace levels may be controlled from App.config by setting
+            the level for AdsClientLibs.SummaryRequestLogs trace switch.</remarks>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.TraceUtilities.Write(System.String,System.Diagnostics.TraceEventType,System.String)">
+            <summary>
+            Writes to the specified Trace source.
+            </summary>
+            <param name="source">The trace source.</param>
+            <param name="level">The message level.</param>
+            <param name="message">The message.</param>
+        </member>
+        <member name="T:Google.Api.Ads.Common.Util.XmlUtilities">
+            <summary>
+            Utilities for working with XML.
+            </summary>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.XmlUtilities.CreateDocument(System.String)">
+            <summary>
+            Loads a string into an XML document that that has XXE disabled.
+            </summary>
+            <param name="contents">The XML document contents as a text.</param>
+            <returns>An XML Document object, with the contents loaded into the
+            DOM.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.XmlUtilities.CreateDocument(System.Byte[])">
+            <summary>
+            Loads the contents of a byte array into an XML document that
+            has XXE disabled.
+            </summary>
+            <param name="contents">The XML document contents as a byte array.</param>
+            <returns>An XML Document object, with the contents loaded into the
+            DOM.</returns>
+        </member>
+        <member name="M:Google.Api.Ads.Common.Util.XmlUtilities.CreateDocument(System.IO.Stream)">
+            <summary>
+            Loads the contents of a stream into an XML document that has XXE
+            disabled.
+            </summary>
+            <param name="stream">The content stream.</param>
+            <returns>An XML Document object, with the contents loaded into the
+            DOM.</returns>
+        </member>
+    </members>
+</doc>

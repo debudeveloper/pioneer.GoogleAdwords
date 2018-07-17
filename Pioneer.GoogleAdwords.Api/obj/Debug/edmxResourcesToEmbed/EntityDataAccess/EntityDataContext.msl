@@ -1,0 +1,1604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SherlockModelStoreContainer" CdmEntityContainer="SherlockEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="SherlockModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdwordsPerformances">
+      <EntityTypeMapping TypeName="SherlockModel.AdwordsPerformance">
+        <MappingFragment StoreEntitySet="AdwordsPerformances">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GenerateDateTime" ColumnName="GenerateDateTime" />
+          <ScalarProperty Name="ProductMastersId" ColumnName="ProductMastersId" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="CampaignId" ColumnName="CampaignId" />
+          <ScalarProperty Name="CampaignName" ColumnName="CampaignName" />
+          <ScalarProperty Name="AdGroupId" ColumnName="AdGroupId" />
+          <ScalarProperty Name="AdGroupName" ColumnName="AdGroupName" />
+          <ScalarProperty Name="KeywordId" ColumnName="KeywordId" />
+          <ScalarProperty Name="KeywordName" ColumnName="KeywordName" />
+          <ScalarProperty Name="Impression" ColumnName="Impression" />
+          <ScalarProperty Name="Click" ColumnName="Click" />
+          <ScalarProperty Name="Ctr" ColumnName="Ctr" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="AvgCpc" ColumnName="AvgCpc" />
+          <ScalarProperty Name="Convertion" ColumnName="Convertion" />
+          <ScalarProperty Name="Cpa" ColumnName="Cpa" />
+          <ScalarProperty Name="ConvertionRate" ColumnName="ConvertionRate" />
+          <ScalarProperty Name="AvgPosition" ColumnName="AvgPosition" />
+          <ScalarProperty Name="ProductMaster_ID" ColumnName="ProductMaster_ID" />
+          <ScalarProperty Name="AdwordType" ColumnName="AdwordType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ApplicationRouteMasters">
+      <EntityTypeMapping TypeName="SherlockModel.ApplicationRouteMaster">
+        <MappingFragment StoreEntitySet="ApplicationRouteMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ApplicationRouteTitle" ColumnName="ApplicationRouteTitle" />
+          <ScalarProperty Name="ApplicationRouteConstantName" ColumnName="ApplicationRouteConstantName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ASULeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.ASULeadLog">
+        <MappingFragment StoreEntitySet="ASULeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ASULeadId" ColumnName="ASULeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumType" ColumnName="PremiumType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CoverType" ColumnName="CoverType" />
+          <ScalarProperty Name="CoverFromType" ColumnName="CoverFromType" />
+          <ScalarProperty Name="IPASUEmploymentStatus" ColumnName="IPASUEmploymentStatus" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ASULeads">
+      <EntityTypeMapping TypeName="SherlockModel.ASULead">
+        <MappingFragment StoreEntitySet="ASULeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="PremiumType" ColumnName="PremiumType" />
+          <ScalarProperty Name="CoverType" ColumnName="CoverType" />
+          <ScalarProperty Name="CoverFromType" ColumnName="CoverFromType" />
+          <ScalarProperty Name="IPASUEmploymentStatus" ColumnName="IPASUEmploymentStatus" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutomationDays">
+      <EntityTypeMapping TypeName="SherlockModel.AutomationDay">
+        <MappingFragment StoreEntitySet="AutomationDays">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AutomationId" ColumnName="AutomationId" />
+          <ScalarProperty Name="ScheduleDay" ColumnName="ScheduleDay" />
+          <ScalarProperty Name="Quota" ColumnName="Quota" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutomationDayTimes">
+      <EntityTypeMapping TypeName="SherlockModel.AutomationDayTime">
+        <MappingFragment StoreEntitySet="AutomationDayTimes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AutomationDayId" ColumnName="AutomationDayId" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="Quota" ColumnName="Quota" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AutomationEmailTemplates">
+      <EntityTypeMapping TypeName="SherlockModel.AutomationEmailTemplate">
+        <MappingFragment StoreEntitySet="AutomationEmailTemplates">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="AutomationId" ColumnName="AutomationId" />
+          <ScalarProperty Name="EmailTemplateId" ColumnName="EmailTemplateId" />
+          <ScalarProperty Name="LeadFilterQuery" ColumnName="LeadFilterQuery" />
+          <ScalarProperty Name="ActiveState" ColumnName="ActiveState" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Automations">
+      <EntityTypeMapping TypeName="SherlockModel.Automation">
+        <MappingFragment StoreEntitySet="Automations">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="EndAfterOccurance" ColumnName="EndAfterOccurance" />
+          <ScalarProperty Name="Quota" ColumnName="Quota" />
+          <ScalarProperty Name="Delay" ColumnName="Delay" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="AutomationProgress" ColumnName="AutomationProgress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bounces">
+      <EntityTypeMapping TypeName="SherlockModel.Bounce">
+        <MappingFragment StoreEntitySet="Bounces">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BridgingLoanLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.BridgingLoanLeadLog">
+        <MappingFragment StoreEntitySet="BridgingLoanLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BridgingLoanLeadId" ColumnName="BridgingLoanLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PropertyValue" ColumnName="PropertyValue" />
+          <ScalarProperty Name="Term" ColumnName="Term" />
+          <ScalarProperty Name="Charge" ColumnName="Charge" />
+          <ScalarProperty Name="ProposedProperty" ColumnName="ProposedProperty" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BridgingLoanLeads">
+      <EntityTypeMapping TypeName="SherlockModel.BridgingLoanLead">
+        <MappingFragment StoreEntitySet="BridgingLoanLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PropertyValue" ColumnName="PropertyValue" />
+          <ScalarProperty Name="Term" ColumnName="Term" />
+          <ScalarProperty Name="Charge" ColumnName="Charge" />
+          <ScalarProperty Name="ProposedProperty" ColumnName="ProposedProperty" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerFaceForProducts">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerFaceForProduct">
+        <MappingFragment StoreEntitySet="BuyerFaceForProducts">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerMasterId" ColumnName="BuyerMasterId" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+          <ScalarProperty Name="PropName" ColumnName="PropName" />
+          <ScalarProperty Name="PropFace" ColumnName="PropFace" />
+          <ScalarProperty Name="Include" ColumnName="Include" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerLeadFeedBacks">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerLeadFeedBack">
+        <MappingFragment StoreEntitySet="BuyerLeadFeedBacks">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerMasterId" ColumnName="BuyerMasterId" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="FeedBack" ColumnName="FeedBack" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsOrganizationFeedBack" ColumnName="IsOrganizationFeedBack" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerMasters">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerMaster">
+        <MappingFragment StoreEntitySet="BuyerMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerName" ColumnName="BuyerName" />
+          <ScalarProperty Name="BuyerAddress" ColumnName="BuyerAddress" />
+          <ScalarProperty Name="BuyerPincode" ColumnName="BuyerPincode" />
+          <ScalarProperty Name="BuyerPocName" ColumnName="BuyerPocName" />
+          <ScalarProperty Name="BuyerContactNumber" ColumnName="BuyerContactNumber" />
+          <ScalarProperty Name="BuyerPocContactNumber" ColumnName="BuyerPocContactNumber" />
+          <ScalarProperty Name="BuyerType" ColumnName="BuyerType" />
+          <ScalarProperty Name="IcoNo" ColumnName="IcoNo" />
+          <ScalarProperty Name="BuyerEmail" ColumnName="BuyerEmail" />
+          <ScalarProperty Name="FcaNo" ColumnName="FcaNo" />
+          <ScalarProperty Name="IcoExpDate" ColumnName="IcoExpDate" />
+          <ScalarProperty Name="CompanyRegistrationNo" ColumnName="CompanyRegistrationNo" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="IsSendNotifyMail" ColumnName="IsSendNotifyMail" />
+          <ScalarProperty Name="IsSubscribe" ColumnName="IsSubscribe" />
+          <ScalarProperty Name="BrandName" ColumnName="BrandName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProductLeadCategories">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProductLeadCategory">
+        <MappingFragment StoreEntitySet="BuyerProductLeadCategories">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerProductId" ColumnName="BuyerProductId" />
+          <ScalarProperty Name="LeadCategory" ColumnName="LeadCategory" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProductLeadTypes">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProductLeadType">
+        <MappingFragment StoreEntitySet="BuyerProductLeadTypes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerProductId" ColumnName="BuyerProductId" />
+          <ScalarProperty Name="LeadType" ColumnName="LeadType" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProducts">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProduct">
+        <MappingFragment StoreEntitySet="BuyerProducts">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerMasterId" ColumnName="BuyerMasterId" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+          <ScalarProperty Name="IntegrationType" ColumnName="IntegrationType" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="Email2" ColumnName="Email2" />
+          <ScalarProperty Name="Email3" ColumnName="Email3" />
+          <ScalarProperty Name="WSDL" ColumnName="WSDL" />
+          <ScalarProperty Name="AffiliateId" ColumnName="AffiliateId" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="BuyerFaceForProduct_ID" ColumnName="BuyerFaceForProduct_ID" />
+          <ScalarProperty Name="Weightage" ColumnName="Weightage" />
+          <ScalarProperty Name="IsSendNotifyMail" ColumnName="IsSendNotifyMail" />
+          <ScalarProperty Name="IsTransferDelay" ColumnName="IsTransferDelay" />
+          <ScalarProperty Name="IsCommissionBased" ColumnName="IsCommissionBased" />
+          <ScalarProperty Name="IsTextToBuyer" ColumnName="IsTextToBuyer" />
+          <ScalarProperty Name="IsTextToCustomer" ColumnName="IsTextToCustomer" />
+          <ScalarProperty Name="IsEmailToCustomer" ColumnName="IsEmailToCustomer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProductScheduleDays">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProductScheduleDay">
+        <MappingFragment StoreEntitySet="BuyerProductScheduleDays">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerProductScheduleId" ColumnName="BuyerProductScheduleId" />
+          <ScalarProperty Name="ScheduleDay" ColumnName="ScheduleDay" />
+          <ScalarProperty Name="ActiveState" ColumnName="ActiveState" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProductSchedules">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProductSchedule">
+        <MappingFragment StoreEntitySet="BuyerProductSchedules">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerMasterId" ColumnName="BuyerMasterId" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+          <ScalarProperty Name="StartDateTime" ColumnName="StartDateTime" />
+          <ScalarProperty Name="EndDateTime" ColumnName="EndDateTime" />
+          <ScalarProperty Name="TimePeriod" ColumnName="TimePeriod" />
+          <ScalarProperty Name="ActiveState" ColumnName="ActiveState" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="DailyDemand" ColumnName="DailyDemand" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProductScheduleSlabs">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProductScheduleSlab">
+        <MappingFragment StoreEntitySet="BuyerProductScheduleSlabs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerProductScheduleId" ColumnName="BuyerProductScheduleId" />
+          <ScalarProperty Name="ProductSlabId" ColumnName="ProductSlabId" />
+          <ScalarProperty Name="Demand" ColumnName="Demand" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="Budget" ColumnName="Budget" />
+          <ScalarProperty Name="ActiveState" ColumnName="ActiveState" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="DailyDemand" ColumnName="DailyDemand" />
+          <ScalarProperty Name="Weightage" ColumnName="Weightage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerProductScheduleTimes">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerProductScheduleTime">
+        <MappingFragment StoreEntitySet="BuyerProductScheduleTimes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerProductScheduleId" ColumnName="BuyerProductScheduleId" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="ActiveState" ColumnName="ActiveState" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BuyerUsers">
+      <EntityTypeMapping TypeName="SherlockModel.BuyerUser">
+        <MappingFragment StoreEntitySet="BuyerUsers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BuyerMasterId" ColumnName="BuyerMasterId" />
+          <ScalarProperty Name="UserMasterId" ColumnName="UserMasterId" />
+          <ScalarProperty Name="ActiveState" ColumnName="ActiveState" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommissionMasters">
+      <EntityTypeMapping TypeName="SherlockModel.CommissionMaster">
+        <MappingFragment StoreEntitySet="CommissionMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BasePrice" ColumnName="BasePrice" />
+          <ScalarProperty Name="BuyerId" ColumnName="BuyerId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="RejectionPercentage" ColumnName="RejectionPercentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommonLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.CommonLeadLog">
+        <MappingFragment StoreEntitySet="CommonLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="WorkPhone" ColumnName="WorkPhone" />
+          <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+          <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="MatchType" ColumnName="MatchType" />
+          <ScalarProperty Name="Keyword" ColumnName="Keyword" />
+          <ScalarProperty Name="LeadStatus" ColumnName="LeadStatus" />
+          <ScalarProperty Name="WebsiteMasterId" ColumnName="WebsiteMasterId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="SourceUid" ColumnName="SourceUid" />
+          <ScalarProperty Name="LeadCategory" ColumnName="LeadCategory" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="Opt" ColumnName="Opt" />
+          <ScalarProperty Name="UserAgent" ColumnName="UserAgent" />
+          <ScalarProperty Name="Query" ColumnName="Query" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="IsAppliaedDataProtection" ColumnName="IsAppliaedDataProtection" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommonLeads">
+      <EntityTypeMapping TypeName="SherlockModel.CommonLead">
+        <MappingFragment StoreEntitySet="CommonLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="WorkPhone" ColumnName="WorkPhone" />
+          <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="WebsiteMasterId" ColumnName="WebsiteMasterId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+          <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="MatchType" ColumnName="MatchType" />
+          <ScalarProperty Name="Keyword" ColumnName="Keyword" />
+          <ScalarProperty Name="LeadStatus" ColumnName="LeadStatus" />
+          <ScalarProperty Name="DNC" ColumnName="DNC" />
+          <ScalarProperty Name="SourceUid" ColumnName="SourceUid" />
+          <ScalarProperty Name="PostcodeOutWard" ColumnName="PostcodeOutWard" />
+          <ScalarProperty Name="PostcodeInWard" ColumnName="PostcodeInWard" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="OrganizationHashCode" ColumnName="OrganizationHashCode" />
+          <ScalarProperty Name="OperatorName" ColumnName="OperatorName" />
+          <ScalarProperty Name="ContactTime" ColumnName="ContactTime" />
+          <ScalarProperty Name="LeadCategory" ColumnName="LeadCategory" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="BuyerMaster_ID" ColumnName="BuyerMaster_ID" />
+          <ScalarProperty Name="OperatorSpecificComments" ColumnName="OperatorSpecificComments" />
+          <ScalarProperty Name="LeadType" ColumnName="LeadType" />
+          <ScalarProperty Name="Opt" ColumnName="Opt" />
+          <ScalarProperty Name="LeadComment" ColumnName="LeadComment" />
+          <ScalarProperty Name="NotifyPrice" ColumnName="NotifyPrice" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="UserAgent" ColumnName="UserAgent" />
+          <ScalarProperty Name="Query" ColumnName="Query" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsSubscribe" ColumnName="IsSubscribe" />
+          <ScalarProperty Name="AppointmentDateFrom" ColumnName="AppointmentDateFrom" />
+          <ScalarProperty Name="AppointmentDateTo" ColumnName="AppointmentDateTo" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="IsAppliaedDataProtection" ColumnName="IsAppliaedDataProtection" />
+          <ScalarProperty Name="IsVerified" ColumnName="IsVerified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactDetails">
+      <EntityTypeMapping TypeName="SherlockModel.ContactDetail">
+        <MappingFragment StoreEntitySet="ContactDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="ContactTime" ColumnName="ContactTime" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="GeneratedDatetime" ColumnName="GeneratedDatetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CorporateHealthLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.CorporateHealthLeadLog">
+        <MappingFragment StoreEntitySet="CorporateHealthLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CorporateHealthLeadId" ColumnName="CorporateHealthLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumTypeId" ColumnName="PremiumTypeId" />
+          <ScalarProperty Name="InsuranceTypeId" ColumnName="InsuranceTypeId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyPostCode" ColumnName="CompanyPostCode" />
+          <ScalarProperty Name="CompanyCity" ColumnName="CompanyCity" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="EmployeeNumber" ColumnName="EmployeeNumber" />
+          <ScalarProperty Name="ExistingPolicy" ColumnName="ExistingPolicy" />
+          <ScalarProperty Name="PartnerGender" ColumnName="PartnerGender" />
+          <ScalarProperty Name="CorporateCoverTypeHealth" ColumnName="CorporateCoverTypeHealth" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CorporateHealthLeads">
+      <EntityTypeMapping TypeName="SherlockModel.CorporateHealthLead">
+        <MappingFragment StoreEntitySet="CorporateHealthLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumTypeId" ColumnName="PremiumTypeId" />
+          <ScalarProperty Name="InsuranceTypeId" ColumnName="InsuranceTypeId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyPostCode" ColumnName="CompanyPostCode" />
+          <ScalarProperty Name="CompanyCity" ColumnName="CompanyCity" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="EmployeeNumber" ColumnName="EmployeeNumber" />
+          <ScalarProperty Name="ExistingPolicy" ColumnName="ExistingPolicy" />
+          <ScalarProperty Name="PartnerGender" ColumnName="PartnerGender" />
+          <ScalarProperty Name="CorporateCoverTypeHealth" ColumnName="CorporateCoverTypeHealth" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebtLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.DebtLeadLog">
+        <MappingFragment StoreEntitySet="DebtLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DebtLeadId" ColumnName="DebtLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="DebtEmploymentStatus" ColumnName="DebtEmploymentStatus" />
+          <ScalarProperty Name="ResidentialStatus" ColumnName="ResidentialStatus" />
+          <ScalarProperty Name="ResidentialLocation" ColumnName="ResidentialLocation" />
+          <ScalarProperty Name="HadCcj" ColumnName="HadCcj" />
+          <ScalarProperty Name="DebtType" ColumnName="DebtType" />
+          <ScalarProperty Name="TotalUnsecuredDebt" ColumnName="TotalUnsecuredDebt" />
+          <ScalarProperty Name="TotalCreditors" ColumnName="TotalCreditors" />
+          <ScalarProperty Name="MonthlyRepayments" ColumnName="MonthlyRepayments" />
+          <ScalarProperty Name="MonthlyDisposable" ColumnName="MonthlyDisposable" />
+          <ScalarProperty Name="MonthlyIncome" ColumnName="MonthlyIncome" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="DebtCategory" ColumnName="DebtCategory" />
+          <ScalarProperty Name="DebtTypes" ColumnName="DebtTypes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DebtLeads">
+      <EntityTypeMapping TypeName="SherlockModel.DebtLead">
+        <MappingFragment StoreEntitySet="DebtLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="DebtEmploymentStatus" ColumnName="DebtEmploymentStatus" />
+          <ScalarProperty Name="ResidentialStatus" ColumnName="ResidentialStatus" />
+          <ScalarProperty Name="ResidentialLocation" ColumnName="ResidentialLocation" />
+          <ScalarProperty Name="HadCcj" ColumnName="HadCcj" />
+          <ScalarProperty Name="DebtType" ColumnName="DebtType" />
+          <ScalarProperty Name="TotalUnsecuredDebt" ColumnName="TotalUnsecuredDebt" />
+          <ScalarProperty Name="TotalCreditors" ColumnName="TotalCreditors" />
+          <ScalarProperty Name="MonthlyRepayments" ColumnName="MonthlyRepayments" />
+          <ScalarProperty Name="MonthlyDisposable" ColumnName="MonthlyDisposable" />
+          <ScalarProperty Name="MonthlyIncome" ColumnName="MonthlyIncome" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="DebtCategory" ColumnName="DebtCategory" />
+          <ScalarProperty Name="DebtTypes" ColumnName="DebtTypes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailRequests">
+      <EntityTypeMapping TypeName="SherlockModel.EmailRequest">
+        <MappingFragment StoreEntitySet="EmailRequests">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailTemplates">
+      <EntityTypeMapping TypeName="SherlockModel.EmailTemplate">
+        <MappingFragment StoreEntitySet="EmailTemplates">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="FromName" ColumnName="FromName" />
+          <ScalarProperty Name="FromEmailAddress" ColumnName="FromEmailAddress" />
+          <ScalarProperty Name="HtmlUrl" ColumnName="HtmlUrl" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EquityReleaseLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.EquityReleaseLeadLog">
+        <MappingFragment StoreEntitySet="EquityReleaseLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EquityReleaseLeadId" ColumnName="EquityReleaseLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="HomeValue" ColumnName="HomeValue" />
+          <ScalarProperty Name="OutstandingMortgageValue" ColumnName="OutstandingMortgageValue" />
+          <ScalarProperty Name="AgeType" ColumnName="AgeType" />
+          <ScalarProperty Name="EquityType" ColumnName="EquityType" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EquityReleaseLeads">
+      <EntityTypeMapping TypeName="SherlockModel.EquityReleaseLead">
+        <MappingFragment StoreEntitySet="EquityReleaseLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="HomeValue" ColumnName="HomeValue" />
+          <ScalarProperty Name="OutstandingMortgageValue" ColumnName="OutstandingMortgageValue" />
+          <ScalarProperty Name="AgeType" ColumnName="AgeType" />
+          <ScalarProperty Name="EquityType" ColumnName="EquityType" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HealthLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.HealthLeadLog">
+        <MappingFragment StoreEntitySet="HealthLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HealthLeadId" ColumnName="HealthLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumTypeId" ColumnName="PremiumTypeId" />
+          <ScalarProperty Name="InsuranceTypeId" ColumnName="InsuranceTypeId" />
+          <ScalarProperty Name="FamilyNumber" ColumnName="FamilyNumber" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="PartnerGender" ColumnName="PartnerGender" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CoverTypeHealth" ColumnName="CoverTypeHealth" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="PartnerAge" ColumnName="PartnerAge" />
+          <ScalarProperty Name="ExistingPolicy" ColumnName="ExistingPolicy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HealthLeads">
+      <EntityTypeMapping TypeName="SherlockModel.HealthLead">
+        <MappingFragment StoreEntitySet="HealthLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumTypeId" ColumnName="PremiumTypeId" />
+          <ScalarProperty Name="InsuranceTypeId" ColumnName="InsuranceTypeId" />
+          <ScalarProperty Name="FamilyNumber" ColumnName="FamilyNumber" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="PartnerGender" ColumnName="PartnerGender" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CoverTypeHealth" ColumnName="CoverTypeHealth" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="PartnerAge" ColumnName="PartnerAge" />
+          <ScalarProperty Name="ExistingPolicy" ColumnName="ExistingPolicy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncomeProtectionLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.IncomeProtectionLeadLog">
+        <MappingFragment StoreEntitySet="IncomeProtectionLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IncomeProtectionLeadId" ColumnName="IncomeProtectionLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumType" ColumnName="PremiumType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CoverType" ColumnName="CoverType" />
+          <ScalarProperty Name="CoverFromType" ColumnName="CoverFromType" />
+          <ScalarProperty Name="IPASUEmploymentStatus" ColumnName="IPASUEmploymentStatus" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncomeProtectionLeads">
+      <EntityTypeMapping TypeName="SherlockModel.IncomeProtectionLead">
+        <MappingFragment StoreEntitySet="IncomeProtectionLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="PremiumType" ColumnName="PremiumType" />
+          <ScalarProperty Name="CoverType" ColumnName="CoverType" />
+          <ScalarProperty Name="CoverFromType" ColumnName="CoverFromType" />
+          <ScalarProperty Name="IPASUEmploymentStatus" ColumnName="IPASUEmploymentStatus" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InjuryClaimLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.InjuryClaimLeadLog">
+        <MappingFragment StoreEntitySet="InjuryClaimLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="InjuryClaimLeadId" ColumnName="InjuryClaimLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="InjureTime" ColumnName="InjureTime" />
+          <ScalarProperty Name="AccidentType" ColumnName="AccidentType" />
+          <ScalarProperty Name="IsMedicalAttention" ColumnName="IsMedicalAttention" />
+          <ScalarProperty Name="IsAlreadyClaimed" ColumnName="IsAlreadyClaimed" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="AccidentLocation" ColumnName="AccidentLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InjuryClaimLeads">
+      <EntityTypeMapping TypeName="SherlockModel.InjuryClaimLead">
+        <MappingFragment StoreEntitySet="InjuryClaimLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="InjureTime" ColumnName="InjureTime" />
+          <ScalarProperty Name="AccidentType" ColumnName="AccidentType" />
+          <ScalarProperty Name="IsMedicalAttention" ColumnName="IsMedicalAttention" />
+          <ScalarProperty Name="IsAlreadyClaimed" ColumnName="IsAlreadyClaimed" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="AccidentLocation" ColumnName="AccidentLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeadConversationLogs">
+      <EntityTypeMapping TypeName="SherlockModel.LeadConversationLog">
+        <MappingFragment StoreEntitySet="LeadConversationLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="To" ColumnName="To" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="ConversationType" ColumnName="ConversationType" />
+          <ScalarProperty Name="Feedback" ColumnName="Feedback" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="BodyType" ColumnName="BodyType" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeadEmailRequests">
+      <EntityTypeMapping TypeName="SherlockModel.LeadEmailRequest">
+        <MappingFragment StoreEntitySet="LeadEmailRequests">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="EmailRequestId" ColumnName="EmailRequestId" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeadStatusByNames">
+      <EntityTypeMapping TypeName="SherlockModel.LeadStatusByName">
+        <MappingFragment StoreEntitySet="LeadStatusByName">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadStatusName" ColumnName="LeadStatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LifeLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.LifeLeadLog">
+        <MappingFragment StoreEntitySet="LifeLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LifeLeadId" ColumnName="LifeLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="SingleOwnership" ColumnName="SingleOwnership" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumType" ColumnName="PremiumType" />
+          <ScalarProperty Name="CriticalIllness" ColumnName="CriticalIllness" />
+          <ScalarProperty Name="InsuranceType" ColumnName="InsuranceType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="PartnerTitle" ColumnName="PartnerTitle" />
+          <ScalarProperty Name="PartnerFirstName" ColumnName="PartnerFirstName" />
+          <ScalarProperty Name="PartnerLastName" ColumnName="PartnerLastName" />
+          <ScalarProperty Name="PartnerSmoker" ColumnName="PartnerSmoker" />
+          <ScalarProperty Name="PartnerDob" ColumnName="PartnerDob" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LifeLeads">
+      <EntityTypeMapping TypeName="SherlockModel.LifeLead">
+        <MappingFragment StoreEntitySet="LifeLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="SingleOwnership" ColumnName="SingleOwnership" />
+          <ScalarProperty Name="Smoker" ColumnName="Smoker" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PremiumType" ColumnName="PremiumType" />
+          <ScalarProperty Name="CriticalIllness" ColumnName="CriticalIllness" />
+          <ScalarProperty Name="InsuranceType" ColumnName="InsuranceType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="PartnerTitle" ColumnName="PartnerTitle" />
+          <ScalarProperty Name="PartnerFirstName" ColumnName="PartnerFirstName" />
+          <ScalarProperty Name="PartnerLastName" ColumnName="PartnerLastName" />
+          <ScalarProperty Name="PartnerSmoker" ColumnName="PartnerSmoker" />
+          <ScalarProperty Name="PartnerDob" ColumnName="PartnerDob" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.LoanLeadLog">
+        <MappingFragment StoreEntitySet="LoanLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LoanLeadId" ColumnName="LoanLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="LoanPurpose" ColumnName="LoanPurpose" />
+          <ScalarProperty Name="PreviousAddressSince" ColumnName="PreviousAddressSince" />
+          <ScalarProperty Name="PreviousPostCode" ColumnName="PreviousPostCode" />
+          <ScalarProperty Name="PreviousCity" ColumnName="PreviousCity" />
+          <ScalarProperty Name="PreviousAddress" ColumnName="PreviousAddress" />
+          <ScalarProperty Name="EmployerName" ColumnName="EmployerName" />
+          <ScalarProperty Name="EmployedSince" ColumnName="EmployedSince" />
+          <ScalarProperty Name="Occupation" ColumnName="Occupation" />
+          <ScalarProperty Name="BeenInDebt" ColumnName="BeenInDebt" />
+          <ScalarProperty Name="LoanGurantor" ColumnName="LoanGurantor" />
+          <ScalarProperty Name="TotalCreditors" ColumnName="TotalCreditors" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="GuarantorName" ColumnName="GuarantorName" />
+          <ScalarProperty Name="GuarantorPhone" ColumnName="GuarantorPhone" />
+          <ScalarProperty Name="GuarantorEmail" ColumnName="GuarantorEmail" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="LoanEmploymentStatus" ColumnName="LoanEmploymentStatus" />
+          <ScalarProperty Name="LoanCreditRating" ColumnName="LoanCreditRating" />
+          <ScalarProperty Name="LoanAnnualIncome" ColumnName="LoanAnnualIncome" />
+          <ScalarProperty Name="LoanCountryOfResidence" ColumnName="LoanCountryOfResidence" />
+          <ScalarProperty Name="LoanMaritalStatus" ColumnName="LoanMaritalStatus" />
+          <ScalarProperty Name="MortgageBalance" ColumnName="MortgageBalance" />
+          <ScalarProperty Name="LoanPropertyValue" ColumnName="LoanPropertyValue" />
+          <ScalarProperty Name="HomeOwner" ColumnName="HomeOwner" />
+          <ScalarProperty Name="AddressStartDate" ColumnName="AddressStartDate" />
+          <ScalarProperty Name="HadBankruptcy" ColumnName="HadBankruptcy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="LoanValue" ColumnName="LoanValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanLeads">
+      <EntityTypeMapping TypeName="SherlockModel.LoanLead">
+        <MappingFragment StoreEntitySet="LoanLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="LoanPurpose" ColumnName="LoanPurpose" />
+          <ScalarProperty Name="PreviousAddressSince" ColumnName="PreviousAddressSince" />
+          <ScalarProperty Name="PreviousPostCode" ColumnName="PreviousPostCode" />
+          <ScalarProperty Name="PreviousCity" ColumnName="PreviousCity" />
+          <ScalarProperty Name="PreviousAddress" ColumnName="PreviousAddress" />
+          <ScalarProperty Name="EmployerName" ColumnName="EmployerName" />
+          <ScalarProperty Name="EmployedSince" ColumnName="EmployedSince" />
+          <ScalarProperty Name="Occupation" ColumnName="Occupation" />
+          <ScalarProperty Name="BeenInDebt" ColumnName="BeenInDebt" />
+          <ScalarProperty Name="LoanGurantor" ColumnName="LoanGurantor" />
+          <ScalarProperty Name="TotalCreditors" ColumnName="TotalCreditors" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="GuarantorName" ColumnName="GuarantorName" />
+          <ScalarProperty Name="GuarantorPhone" ColumnName="GuarantorPhone" />
+          <ScalarProperty Name="GuarantorEmail" ColumnName="GuarantorEmail" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="LoanEmploymentStatus" ColumnName="LoanEmploymentStatus" />
+          <ScalarProperty Name="LoanCreditRating" ColumnName="LoanCreditRating" />
+          <ScalarProperty Name="LoanAnnualIncome" ColumnName="LoanAnnualIncome" />
+          <ScalarProperty Name="LoanCountryOfResidence" ColumnName="LoanCountryOfResidence" />
+          <ScalarProperty Name="LoanMaritalStatus" ColumnName="LoanMaritalStatus" />
+          <ScalarProperty Name="MortgageBalance" ColumnName="MortgageBalance" />
+          <ScalarProperty Name="LoanPropertyValue" ColumnName="LoanPropertyValue" />
+          <ScalarProperty Name="HomeOwner" ColumnName="HomeOwner" />
+          <ScalarProperty Name="AddressStartDate" ColumnName="AddressStartDate" />
+          <ScalarProperty Name="HadBankruptcy" ColumnName="HadBankruptcy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="LoanValue" ColumnName="LoanValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogBookLoanLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.LogBookLoanLeadLog">
+        <MappingFragment StoreEntitySet="LogBookLoanLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LogBookLoanLeadId" ColumnName="LogBookLoanLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="NumberPlate" ColumnName="NumberPlate" />
+          <ScalarProperty Name="CurrentMileage" ColumnName="CurrentMileage" />
+          <ScalarProperty Name="ClearOfFinance" ColumnName="ClearOfFinance" />
+          <ScalarProperty Name="LogBookLoanCountryResidence" ColumnName="LogBookLoanCountryResidence" />
+          <ScalarProperty Name="ContactTime" ColumnName="ContactTime" />
+          <ScalarProperty Name="CarMake" ColumnName="CarMake" />
+          <ScalarProperty Name="CarModel" ColumnName="CarModel" />
+          <ScalarProperty Name="CarRegistrationYear" ColumnName="CarRegistrationYear" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogBookLoanLeads">
+      <EntityTypeMapping TypeName="SherlockModel.LogBookLoanLead">
+        <MappingFragment StoreEntitySet="LogBookLoanLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="NumberPlate" ColumnName="NumberPlate" />
+          <ScalarProperty Name="CurrentMileage" ColumnName="CurrentMileage" />
+          <ScalarProperty Name="ClearOfFinance" ColumnName="ClearOfFinance" />
+          <ScalarProperty Name="LogBookLoanCountryResidence" ColumnName="LogBookLoanCountryResidence" />
+          <ScalarProperty Name="CarMake" ColumnName="CarMake" />
+          <ScalarProperty Name="CarModel" ColumnName="CarModel" />
+          <ScalarProperty Name="CarRegistrationYear" ColumnName="CarRegistrationYear" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MortgageLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.MortgageLeadLog">
+        <MappingFragment StoreEntitySet="MortgageLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MortgageLeadId" ColumnName="MortgageLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="EmploymentStatus" ColumnName="EmploymentStatus" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PropertyValue" ColumnName="PropertyValue" />
+          <ScalarProperty Name="LoanValue" ColumnName="LoanValue" />
+          <ScalarProperty Name="CurrentDebt" ColumnName="CurrentDebt" />
+          <ScalarProperty Name="PropertyType" ColumnName="PropertyType" />
+          <ScalarProperty Name="PropertyLocation" ColumnName="PropertyLocation" />
+          <ScalarProperty Name="CreditHistory" ColumnName="CreditHistory" />
+          <ScalarProperty Name="AnnualIncome" ColumnName="AnnualIncome" />
+          <ScalarProperty Name="MissAnyLoan" ColumnName="MissAnyLoan" />
+          <ScalarProperty Name="HadBankruptcy" ColumnName="HadBankruptcy" />
+          <ScalarProperty Name="AppliedIva" ColumnName="AppliedIva" />
+          <ScalarProperty Name="HadCcj" ColumnName="HadCcj" />
+          <ScalarProperty Name="RateType" ColumnName="RateType" />
+          <ScalarProperty Name="RepaymentType" ColumnName="RepaymentType" />
+          <ScalarProperty Name="LTV" ColumnName="LTV" />
+          <ScalarProperty Name="AdverseCredit" ColumnName="AdverseCredit" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="Charge" ColumnName="Charge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MortgageLeads">
+      <EntityTypeMapping TypeName="SherlockModel.MortgageLead">
+        <MappingFragment StoreEntitySet="MortgageLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="EmploymentStatus" ColumnName="EmploymentStatus" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="PropertyValue" ColumnName="PropertyValue" />
+          <ScalarProperty Name="LoanValue" ColumnName="LoanValue" />
+          <ScalarProperty Name="CurrentDebt" ColumnName="CurrentDebt" />
+          <ScalarProperty Name="PropertyType" ColumnName="PropertyType" />
+          <ScalarProperty Name="PropertyLocation" ColumnName="PropertyLocation" />
+          <ScalarProperty Name="CreditHistory" ColumnName="CreditHistory" />
+          <ScalarProperty Name="AnnualIncome" ColumnName="AnnualIncome" />
+          <ScalarProperty Name="MissAnyLoan" ColumnName="MissAnyLoan" />
+          <ScalarProperty Name="HadBankruptcy" ColumnName="HadBankruptcy" />
+          <ScalarProperty Name="AppliedIva" ColumnName="AppliedIva" />
+          <ScalarProperty Name="HadCcj" ColumnName="HadCcj" />
+          <ScalarProperty Name="RateType" ColumnName="RateType" />
+          <ScalarProperty Name="RepaymentType" ColumnName="RepaymentType" />
+          <ScalarProperty Name="LTV" ColumnName="LTV" />
+          <ScalarProperty Name="AdverseCredit" ColumnName="AdverseCredit" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="CommonLead_ID" ColumnName="CommonLead_ID" />
+          <ScalarProperty Name="Charge" ColumnName="Charge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrganizationMasters">
+      <EntityTypeMapping TypeName="SherlockModel.OrganizationMaster">
+        <MappingFragment StoreEntitySet="OrganizationMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrganizationName" ColumnName="OrganizationName" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="OrganizationHashCode" ColumnName="OrganizationHashCode" />
+          <ScalarProperty Name="OrganizationBrandName" ColumnName="OrganizationBrandName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrganizationProductAccesses">
+      <EntityTypeMapping TypeName="SherlockModel.OrganizationProductAccess">
+        <MappingFragment StoreEntitySet="OrganizationProductAccesses">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PensionLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.PensionLeadLog">
+        <MappingFragment StoreEntitySet="PensionLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PensionLeadId" ColumnName="PensionLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="PersonalPensionType" ColumnName="PersonalPensionType" />
+          <ScalarProperty Name="PensionPremiumType" ColumnName="PensionPremiumType" />
+          <ScalarProperty Name="PensionValue" ColumnName="PensionValue" />
+          <ScalarProperty Name="PensionType" ColumnName="PensionType" />
+          <ScalarProperty Name="PensionAccessFund" ColumnName="PensionAccessFund" />
+          <ScalarProperty Name="ExistPensions" ColumnName="ExistPensions" />
+          <ScalarProperty Name="PensionTypeOther" ColumnName="PensionTypeOther" />
+          <ScalarProperty Name="IsCurrentlyPayingMoney" ColumnName="IsCurrentlyPayingMoney" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PensionLeads">
+      <EntityTypeMapping TypeName="SherlockModel.PensionLead">
+        <MappingFragment StoreEntitySet="PensionLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="PersonalPensionType" ColumnName="PersonalPensionType" />
+          <ScalarProperty Name="PensionPremiumType" ColumnName="PensionPremiumType" />
+          <ScalarProperty Name="PensionValue" ColumnName="PensionValue" />
+          <ScalarProperty Name="PensionType" ColumnName="PensionType" />
+          <ScalarProperty Name="PensionAccessFund" ColumnName="PensionAccessFund" />
+          <ScalarProperty Name="ExistPensions" ColumnName="ExistPensions" />
+          <ScalarProperty Name="PensionTypeOther" ColumnName="PensionTypeOther" />
+          <ScalarProperty Name="IsCurrentlyPayingMoney" ColumnName="IsCurrentlyPayingMoney" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="TotalPensionValue" ColumnName="TotalPensionValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PPILeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.PPILeadLog">
+        <MappingFragment StoreEntitySet="PPILeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PPILeadId" ColumnName="PPILeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="LoanStatus" ColumnName="LoanStatus" />
+          <ScalarProperty Name="PPIEmploymentStatus" ColumnName="PPIEmploymentStatus" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="MonthlyRepayments" ColumnName="MonthlyRepayments" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PPILeads">
+      <EntityTypeMapping TypeName="SherlockModel.PPILead">
+        <MappingFragment StoreEntitySet="PPILeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="LoanStatus" ColumnName="LoanStatus" />
+          <ScalarProperty Name="PPIEmploymentStatus" ColumnName="PPIEmploymentStatus" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="AdditionalInformation" ColumnName="AdditionalInformation" />
+          <ScalarProperty Name="MonthlyRepayments" ColumnName="MonthlyRepayments" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrepaidFuneralLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.PrepaidFuneralLeadLog">
+        <MappingFragment StoreEntitySet="PrepaidFuneralLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PrepaidFuneralLeadId" ColumnName="PrepaidFuneralLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrepaidFuneralLeads">
+      <EntityTypeMapping TypeName="SherlockModel.PrepaidFuneralLead">
+        <MappingFragment StoreEntitySet="PrepaidFuneralLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductMasters">
+      <EntityTypeMapping TypeName="SherlockModel.ProductMaster">
+        <MappingFragment StoreEntitySet="ProductMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ParentProductId" ColumnName="ParentProductId" />
+          <ScalarProperty Name="IsMultipleBuyer" ColumnName="IsMultipleBuyer" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSlabs">
+      <EntityTypeMapping TypeName="SherlockModel.ProductSlab">
+        <MappingFragment StoreEntitySet="ProductSlabs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductMasterId" ColumnName="ProductMasterId" />
+          <ScalarProperty Name="SlabName" ColumnName="SlabName" />
+          <ScalarProperty Name="BuyerSlabName" ColumnName="BuyerSlabName" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="ProductFormula" ColumnName="ProductFormula" />
+          <ScalarProperty Name="CommonFormula" ColumnName="CommonFormula" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleMasters">
+      <EntityTypeMapping TypeName="SherlockModel.RoleMaster">
+        <MappingFragment StoreEntitySet="RoleMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="RoleDesc" ColumnName="RoleDesc" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShortenUrls">
+      <EntityTypeMapping TypeName="SherlockModel.ShortenUrl">
+        <MappingFragment StoreEntitySet="ShortenUrls">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LongUrl" ColumnName="LongUrl" />
+          <ScalarProperty Name="ShortUrl" ColumnName="ShortUrl" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteVisitors">
+      <EntityTypeMapping TypeName="SherlockModel.SiteVisitor">
+        <MappingFragment StoreEntitySet="SiteVisitors">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+          <ScalarProperty Name="UserAgent" ColumnName="UserAgent" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SlabDefinitions">
+      <EntityTypeMapping TypeName="SherlockModel.SlabDefinition">
+        <MappingFragment StoreEntitySet="SlabDefinitions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="UserMaster_ID" ColumnName="UserMaster_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SolarLeadLogs">
+      <EntityTypeMapping TypeName="SherlockModel.SolarLeadLog">
+        <MappingFragment StoreEntitySet="SolarLeadLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SolarLeadId" ColumnName="SolarLeadId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="CommonLeadId" ColumnName="CommonLeadId" />
+          <ScalarProperty Name="SolarPropertyType" ColumnName="SolarPropertyType" />
+          <ScalarProperty Name="PropertyOwnership" ColumnName="PropertyOwnership" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SolarLeads">
+      <EntityTypeMapping TypeName="SherlockModel.SolarLead">
+        <MappingFragment StoreEntitySet="SolarLeads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="SolarPropertyType" ColumnName="SolarPropertyType" />
+          <ScalarProperty Name="PropertyOwnership" ColumnName="PropertyOwnership" />
+          <ScalarProperty Name="GeneratedDate" ColumnName="GeneratedDate" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SuppressionDetails">
+      <EntityTypeMapping TypeName="SherlockModel.SuppressionDetail">
+        <MappingFragment StoreEntitySet="SuppressionDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SourceType" ColumnName="SourceType" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tokens">
+      <EntityTypeMapping TypeName="SherlockModel.Token">
+        <MappingFragment StoreEntitySet="Tokens">
+          <ScalarProperty Name="TokenId" ColumnName="TokenId" />
+          <ScalarProperty Name="UserMasterId" ColumnName="UserMasterId" />
+          <ScalarProperty Name="AuthToken" ColumnName="AuthToken" />
+          <ScalarProperty Name="IssuedOn" ColumnName="IssuedOn" />
+          <ScalarProperty Name="ExpiresOn" ColumnName="ExpiresOn" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="UserAgent" ColumnName="UserAgent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransferLogs">
+      <EntityTypeMapping TypeName="SherlockModel.TransferLog">
+        <MappingFragment StoreEntitySet="TransferLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GeneratedDatetime" ColumnName="GeneratedDatetime" />
+          <ScalarProperty Name="TransferDatetime" ColumnName="TransferDatetime" />
+          <ScalarProperty Name="BuyerIntegrationTypeID" ColumnName="BuyerIntegrationTypeID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TransferredTo" ColumnName="TransferredTo" />
+          <ScalarProperty Name="ProductSlabId" ColumnName="ProductSlabId" />
+          <ScalarProperty Name="IsActualPrice" ColumnName="IsActualPrice" />
+          <ScalarProperty Name="LeadId" ColumnName="LeadId" />
+          <ScalarProperty Name="BuyerReturnLeadId" ColumnName="BuyerReturnLeadId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Return" ColumnName="Return" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="BuyerProductScheduleId" ColumnName="BuyerProductScheduleId" />
+          <ScalarProperty Name="CommissionPrice" ColumnName="CommissionPrice" />
+          <ScalarProperty Name="CommissionRecievedDatetime" ColumnName="CommissionRecievedDatetime" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserApplicationAccesses">
+      <EntityTypeMapping TypeName="SherlockModel.UserApplicationAccess">
+        <MappingFragment StoreEntitySet="UserApplicationAccesses">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ApplicationRouteID" ColumnName="ApplicationRouteID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMasters">
+      <EntityTypeMapping TypeName="SherlockModel.UserMaster">
+        <MappingFragment StoreEntitySet="UserMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Verificationcode" ColumnName="Verificationcode" />
+          <ScalarProperty Name="EmailVerified" ColumnName="EmailVerified" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="OrganizationMasterId" ColumnName="OrganizationMasterId" />
+          <ScalarProperty Name="GeneratedDateTime" ColumnName="GeneratedDateTime" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="AlternatePhone" ColumnName="AlternatePhone" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserNotifications">
+      <EntityTypeMapping TypeName="SherlockModel.UserNotification">
+        <MappingFragment StoreEntitySet="UserNotifications">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserMasterId" ColumnName="UserMasterId" />
+          <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="NotificationType" ColumnName="NotificationType" />
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="SherlockModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRoles">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserMasterId" ColumnName="UserMasterId" />
+          <ScalarProperty Name="RoleMasterId" ColumnName="RoleMasterId" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebsiteMasters">
+      <EntityTypeMapping TypeName="SherlockModel.WebsiteMaster">
+        <MappingFragment StoreEntitySet="WebsiteMasters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="WebsiteAddress" ColumnName="WebsiteAddress" />
+          <ScalarProperty Name="WebsiteStatus" ColumnName="WebsiteStatus" />
+          <ScalarProperty Name="WebsiteName" ColumnName="WebsiteName" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DeleteStatus" ColumnName="DeleteStatus" />
+          <ScalarProperty Name="WebsiteFromEmail" ColumnName="WebsiteFromEmail" />
+          <ScalarProperty Name="WebsiteFromText" ColumnName="WebsiteFromText" />
+          <ScalarProperty Name="WebsiteEmailSubject" ColumnName="WebsiteEmailSubject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="WebsiteMasterProductMasters" TypeName="SherlockModel.WebsiteMasterProductMasters" StoreEntitySet="WebsiteMasterProductMasters">
+      <EndProperty Name="ProductMasters">
+        <ScalarProperty Name="ID" ColumnName="ProductMaster_ID" />
+      </EndProperty>
+      <EndProperty Name="WebsiteMasters">
+        <ScalarProperty Name="ID" ColumnName="WebsiteMaster_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

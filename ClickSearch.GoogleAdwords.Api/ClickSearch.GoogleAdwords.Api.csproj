@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63B2DA14-B2DC-40B7-82AC-C94EEC3315AC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClickSearch.GoogleAdwords.Api</RootNamespace>
+    <AssemblyName>ClickSearch.GoogleAdwords.Api</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Ads.Common, Version=9.1.0.0, Culture=neutral, PublicKeyToken=52807268f2b614dc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Ads.Common.9.1.0\lib\net452\Google.Ads.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.AdWords, Version=23.3.0.0, Culture=neutral, PublicKeyToken=52807268f2b614dc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.AdWords.23.3.0\lib\net452\Google.AdWords.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.32.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.32.0\lib\net45\Google.Apis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.32.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.32.0\lib\net45\Google.Apis.Auth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.32.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.32.0\lib\net45\Google.Apis.Auth.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.32.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.32.0\lib\net45\Google.Apis.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices, Version=1.32.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.32.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.1.2\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.1.1\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.6\lib\net45\System.Web.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.6\lib\net45\System.Web.Http.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\GoogleAdwordController.cs" />
+    <Compile Include="EntityDataAccess\AdwordsPerformance.cs" />
+    <Compile Include="EntityDataAccess\EntityDataContext.cs" />
+    <Compile Include="EntityDataAccess\OrganizationMaster.cs" />
+    <Compile Include="EntityDataAccess\WebsiteMaster.cs" />
+    <Compile Include="ExampleBase.cs" />
+    <Compile Include="ExampleUtilities.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GoogleAdwordCredential.cs" />
+    <Compile Include="OAuth\ConsoleExample.cs" />
+    <Compile Include="OAuth\Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\Default.aspx.designer.cs" />
+    <Compile Include="OAuth\OAuthLogin.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OAuth\OAuthLogin.aspx.designer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v201710\AccountManagement\AcceptServiceLink.cs" />
+    <Compile Include="v201710\AccountManagement\CreateAccount.cs" />
+    <Compile Include="v201710\AccountManagement\GetAccountChanges.cs" />
+    <Compile Include="v201710\AccountManagement\GetAccountHierarchy.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddAdCustomizers.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddAdGroupBidModifier.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddClickToDownloadAd.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddDynamicPageFeed.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddDynamicSearchAdsCampaign.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddExpandedTextAdWithUpgradedUrls.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddHtml5Ad.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddResponsiveDisplayAd.cs" />
+    <Compile Include="v201710\AdvancedOperations\AddUniversalAppCampaign.cs" />
+    <Compile Include="v201710\AdvancedOperations\CreateAndAttachSharedKeywordSet.cs" />
+    <Compile Include="v201710\AdvancedOperations\FindAndRemoveCriteriaFromSharedSet.cs" />
+    <Compile Include="v201710\AdvancedOperations\GetAdGroupBidModifiers.cs" />
+    <Compile Include="v201710\AdvancedOperations\UsePortfolioBiddingStrategy.cs" />
+    <Compile Include="v201710\BasicOperations\AddAdGroupDemographicCriteria.cs" />
+    <Compile Include="v201710\BasicOperations\AddAdGroups.cs" />
+    <Compile Include="v201710\BasicOperations\AddCampaigns.cs" />
+    <Compile Include="v201710\BasicOperations\AddExpandedTextAds.cs" />
+    <Compile Include="v201710\BasicOperations\AddKeywords.cs" />
+    <Compile Include="v201710\BasicOperations\GetAdGroups.cs" />
+    <Compile Include="v201710\BasicOperations\GetCampaigns.cs" />
+    <Compile Include="v201710\BasicOperations\GetCampaignsWithAwql.cs" />
+    <Compile Include="v201710\BasicOperations\GetExpandedTextAds.cs" />
+    <Compile Include="v201710\BasicOperations\GetKeywords.cs" />
+    <Compile Include="v201710\BasicOperations\PauseAd.cs" />
+    <Compile Include="v201710\BasicOperations\RemoveAd.cs" />
+    <Compile Include="v201710\BasicOperations\RemoveAdGroup.cs" />
+    <Compile Include="v201710\BasicOperations\RemoveCampaign.cs" />
+    <Compile Include="v201710\BasicOperations\RemoveKeyword.cs" />
+    <Compile Include="v201710\BasicOperations\UpdateAdGroup.cs" />
+    <Compile Include="v201710\BasicOperations\UpdateCampaign.cs" />
+    <Compile Include="v201710\BasicOperations\UpdateKeyword.cs" />
+    <Compile Include="v201710\CampaignManagement\AddCampaignGroupsAndPerformanceTargets.cs" />
+    <Compile Include="v201710\CampaignManagement\AddCampaignLabels.cs" />
+    <Compile Include="v201710\CampaignManagement\AddCompleteCampaignsUsingBatchJob.cs" />
+    <Compile Include="v201710\CampaignManagement\AddCompleteCampaignsUsingStreamingBatchJob.cs" />
+    <Compile Include="v201710\CampaignManagement\AddDraft.cs" />
+    <Compile Include="v201710\CampaignManagement\AddKeywordsUsingIncrementalBatchJob.cs" />
+    <Compile Include="v201710\CampaignManagement\AddTrial.cs" />
+    <Compile Include="v201710\CampaignManagement\GetAllDisapprovedAds.cs" />
+    <Compile Include="v201710\CampaignManagement\GetAllDisapprovedAdsWithAwql.cs" />
+    <Compile Include="v201710\CampaignManagement\GetCampaignsByLabel.cs" />
+    <Compile Include="v201710\CampaignManagement\GraduateTrial.cs" />
+    <Compile Include="v201710\CampaignManagement\SetAdParameters.cs" />
+    <Compile Include="v201710\CampaignManagement\SetBidModifier.cs" />
+    <Compile Include="v201710\CampaignManagement\ValidateTextAd.cs" />
+    <Compile Include="v201710\ErrorHandling\HandlePartialFailures.cs" />
+    <Compile Include="v201710\ErrorHandling\HandlePolicyViolationError.cs" />
+    <Compile Include="v201710\ErrorHandling\HandleRateExceededError.cs" />
+    <Compile Include="v201710\Extensions\AddGoogleMyBusinessLocationExtensions.cs" />
+    <Compile Include="v201710\Extensions\AddPrices.cs" />
+    <Compile Include="v201710\Extensions\AddSitelinks.cs" />
+    <Compile Include="v201710\Extensions\AddSitelinksUsingFeeds.cs" />
+    <Compile Include="v201710\Migration\MigrateToExtensionSettings.cs" />
+    <Compile Include="v201710\Miscellaneous\GetAllVideosAndImages.cs" />
+    <Compile Include="v201710\Miscellaneous\UploadImage.cs" />
+    <Compile Include="v201710\Miscellaneous\UploadMediaBundle.cs" />
+    <Compile Include="v201710\Optimization\EstimateKeywordTraffic.cs" />
+    <Compile Include="v201710\Optimization\GetAdGroupBidSimulations.cs" />
+    <Compile Include="v201710\Optimization\GetCampaignCriterionBidModifierSimulations.cs" />
+    <Compile Include="v201710\Optimization\GetKeywordBidSimulations.cs" />
+    <Compile Include="v201710\Optimization\GetKeywordIdeas.cs" />
+    <Compile Include="v201710\Remarketing\AddAudience.cs" />
+    <Compile Include="v201710\Remarketing\AddConversionTrackers.cs" />
+    <Compile Include="v201710\Remarketing\AddCrmBasedUserList.cs" />
+    <Compile Include="v201710\Remarketing\AddRuleBasedRemarketingList.cs" />
+    <Compile Include="v201710\Remarketing\UploadOfflineCallConversions.cs" />
+    <Compile Include="v201710\Remarketing\UploadOfflineConversions.cs" />
+    <Compile Include="v201710\Remarketing\UploadOfflineData.cs" />
+    <Compile Include="v201710\Reporting\DownloadCriteriaReportWithAwql.cs" />
+    <Compile Include="v201710\Reporting\DownloadCriteriaReportWithSelector.cs" />
+    <Compile Include="v201710\Reporting\GetReportFields.cs" />
+    <Compile Include="v201710\Reporting\ParallelReportDownload.cs" />
+    <Compile Include="v201710\Reporting\StreamCriteriaReportResults.cs" />
+    <Compile Include="v201710\Reporting\StreamCriteriaReportToPoco.cs" />
+    <Compile Include="v201710\Reporting\StreamReportToPredefinedReportRowType.cs" />
+    <Compile Include="v201710\ShoppingCampaigns\AddProductPartitionTree.cs" />
+    <Compile Include="v201710\ShoppingCampaigns\AddProductScope.cs" />
+    <Compile Include="v201710\ShoppingCampaigns\AddShoppingCampaign.cs" />
+    <Compile Include="v201710\ShoppingCampaigns\AddShoppingCampaignForShowcaseAds.cs" />
+    <Compile Include="v201710\ShoppingCampaigns\GetProductCategoryTaxonomy.cs" />
+    <Compile Include="v201710\Targeting\AddCampaignTargetingCriteria.cs" />
+    <Compile Include="v201710\Targeting\AddCustomerNegativeCriteria.cs" />
+    <Compile Include="v201710\Targeting\GetCampaignTargetingCriteria.cs" />
+    <Compile Include="v201710\Targeting\GetTargetableLanguagesAndCarriers.cs" />
+    <Compile Include="v201710\Targeting\LookupLocation.cs" />
+    <Compile Include="v201802\AccountManagement\AcceptServiceLink.cs" />
+    <Compile Include="v201802\AccountManagement\CreateAccount.cs" />
+    <Compile Include="v201802\AccountManagement\GetAccountChanges.cs" />
+    <Compile Include="v201802\AccountManagement\GetAccountHierarchy.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddAdCustomizers.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddAdGroupBidModifier.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddClickToDownloadAd.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddDynamicPageFeed.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddDynamicSearchAdsCampaign.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddExpandedTextAdWithUpgradedUrls.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddGmailAd.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddHtml5Ad.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddResponsiveDisplayAd.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddShoppingDynamicRemarketingCampaign.cs" />
+    <Compile Include="v201802\AdvancedOperations\AddUniversalAppCampaign.cs" />
+    <Compile Include="v201802\AdvancedOperations\CreateAndAttachSharedKeywordSet.cs" />
+    <Compile Include="v201802\AdvancedOperations\FindAndRemoveCriteriaFromSharedSet.cs" />
+    <Compile Include="v201802\AdvancedOperations\GetAdGroupBidModifiers.cs" />
+    <Compile Include="v201802\AdvancedOperations\UsePortfolioBiddingStrategy.cs" />
+    <Compile Include="v201802\BasicOperations\AddAdGroupDemographicCriteria.cs" />
+    <Compile Include="v201802\BasicOperations\AddAdGroups.cs" />
+    <Compile Include="v201802\BasicOperations\AddCampaigns.cs" />
+    <Compile Include="v201802\BasicOperations\AddExpandedTextAds.cs" />
+    <Compile Include="v201802\BasicOperations\AddKeywords.cs" />
+    <Compile Include="v201802\BasicOperations\GetAdGroups.cs" />
+    <Compile Include="v201802\BasicOperations\GetCampaigns.cs" />
+    <Compile Include="v201802\BasicOperations\GetCampaignsWithAwql.cs" />
+    <Compile Include="v201802\BasicOperations\GetExpandedTextAds.cs" />
+    <Compile Include="v201802\BasicOperations\GetKeywords.cs" />
+    <Compile Include="v201802\BasicOperations\PauseAd.cs" />
+    <Compile Include="v201802\BasicOperations\RemoveAd.cs" />
+    <Compile Include="v201802\BasicOperations\RemoveAdGroup.cs" />
+    <Compile Include="v201802\BasicOperations\RemoveCampaign.cs" />
+    <Compile Include="v201802\BasicOperations\RemoveKeyword.cs" />
+    <Compile Include="v201802\BasicOperations\UpdateAdGroup.cs" />
+    <Compile Include="v201802\BasicOperations\UpdateCampaign.cs" />
+    <Compile Include="v201802\BasicOperations\UpdateKeyword.cs" />
+    <Compile Include="v201802\CampaignManagement\AddCampaignGroupsAndPerformanceTargets.cs" />
+    <Compile Include="v201802\CampaignManagement\AddCampaignLabels.cs" />
+    <Compile Include="v201802\CampaignManagement\AddCompleteCampaignsUsingBatchJob.cs" />
+    <Compile Include="v201802\CampaignManagement\AddCompleteCampaignsUsingStreamingBatchJob.cs" />
+    <Compile Include="v201802\CampaignManagement\AddDraft.cs" />
+    <Compile Include="v201802\CampaignManagement\AddKeywordsUsingIncrementalBatchJob.cs" />
+    <Compile Include="v201802\CampaignManagement\AddTrial.cs" />
+    <Compile Include="v201802\CampaignManagement\GetAllDisapprovedAds.cs" />
+    <Compile Include="v201802\CampaignManagement\GetAllDisapprovedAdsWithAwql.cs" />
+    <Compile Include="v201802\CampaignManagement\GetCampaignsByLabel.cs" />
+    <Compile Include="v201802\CampaignManagement\GraduateTrial.cs" />
+    <Compile Include="v201802\CampaignManagement\SetAdParameters.cs" />
+    <Compile Include="v201802\CampaignManagement\SetBidModifier.cs" />
+    <Compile Include="v201802\CampaignManagement\ValidateTextAd.cs" />
+    <Compile Include="v201802\ErrorHandling\HandlePartialFailures.cs" />
+    <Compile Include="v201802\ErrorHandling\HandlePolicyViolationError.cs" />
+    <Compile Include="v201802\ErrorHandling\HandleRateExceededError.cs" />
+    <Compile Include="v201802\Extensions\AddGoogleMyBusinessLocationExtensions.cs" />
+    <Compile Include="v201802\Extensions\AddPrices.cs" />
+    <Compile Include="v201802\Extensions\AddSitelinks.cs" />
+    <Compile Include="v201802\Extensions\AddSitelinksUsingFeeds.cs" />
+    <Compile Include="v201802\Migration\MigrateToExtensionSettings.cs" />
+    <Compile Include="v201802\Miscellaneous\GetAllVideosAndImages.cs" />
+    <Compile Include="v201802\Miscellaneous\UploadImage.cs" />
+    <Compile Include="v201802\Miscellaneous\UploadMediaBundle.cs" />
+    <Compile Include="v201802\Optimization\EstimateKeywordTraffic.cs" />
+    <Compile Include="v201802\Optimization\GetAdGroupBidSimulations.cs" />
+    <Compile Include="v201802\Optimization\GetCampaignCriterionBidModifierSimulations.cs" />
+    <Compile Include="v201802\Optimization\GetKeywordBidSimulations.cs" />
+    <Compile Include="v201802\Optimization\GetKeywordIdeas.cs" />
+    <Compile Include="v201802\Remarketing\AddAudience.cs" />
+    <Compile Include="v201802\Remarketing\AddConversionTrackers.cs" />
+    <Compile Include="v201802\Remarketing\AddCrmBasedUserList.cs" />
+    <Compile Include="v201802\Remarketing\AddRuleBasedRemarketingList.cs" />
+    <Compile Include="v201802\Remarketing\UploadOfflineCallConversions.cs" />
+    <Compile Include="v201802\Remarketing\UploadOfflineConversions.cs" />
+    <Compile Include="v201802\Remarketing\UploadOfflineData.cs" />
+    <Compile Include="v201802\Reporting\DownloadCriteriaReportWithAwql.cs" />
+    <Compile Include="v201802\Reporting\DownloadCriteriaReportWithSelector.cs" />
+    <Compile Include="v201802\Reporting\GetReportFields.cs" />
+    <Compile Include="v201802\Reporting\ParallelReportDownload.cs" />
+    <Compile Include="v201802\Reporting\StreamCriteriaReportResults.cs" />
+    <Compile Include="v201802\Reporting\StreamCriteriaReportToPoco.cs" />
+    <Compile Include="v201802\Reporting\StreamReportToPredefinedReportRowType.cs" />
+    <Compile Include="v201802\ShoppingCampaigns\AddProductPartitionTree.cs" />
+    <Compile Include="v201802\ShoppingCampaigns\AddProductScope.cs" />
+    <Compile Include="v201802\ShoppingCampaigns\AddShoppingCampaign.cs" />
+    <Compile Include="v201802\ShoppingCampaigns\AddShoppingCampaignForShowcaseAds.cs" />
+    <Compile Include="v201802\ShoppingCampaigns\GetProductCategoryTaxonomy.cs" />
+    <Compile Include="v201802\Targeting\AddCampaignTargetingCriteria.cs" />
+    <Compile Include="v201802\Targeting\AddCustomerNegativeCriteria.cs" />
+    <Compile Include="v201802\Targeting\GetCampaignTargetingCriteria.cs" />
+    <Compile Include="v201802\Targeting\GetTargetableLanguagesAndCarriers.cs" />
+    <Compile Include="v201802\Targeting\LookupLocation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\csAdwords.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3623</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3623/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
